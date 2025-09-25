@@ -1,0 +1,5 @@
+Processador: ATmega328P-PU (AVR, DIP-28)
+Pré-driver: RD16HHF1 (TO-220)
+PA final: 4 x IRFP em push-pull
+Sintonia: cristais HC-49
+Bobinas de FI: Usaremos trafos banda-larga em ferrite

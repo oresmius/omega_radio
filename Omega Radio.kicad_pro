@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Intralha."
+    ]
   },
   "meta": {
     "filename": "Omega Radio.kicad_pro",
@@ -623,8 +625,12 @@
       "Root"
     ],
     [
+      "c91666e5-be57-4bd6-94e8-10101d3f9109",
+      "Power"
+    ],
+    [
       "24312ef5-36e6-40ee-ad2e-2d0b81e7182c",
-      "Untitled Sheet"
+      "DRV, Coupler, PA"
     ]
   ],
   "text_variables": {}

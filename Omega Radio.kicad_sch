@@ -2884,7 +2884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "421957fe-8ebe-4094-b4c5-5a875a41d50f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR02"
 			(at 143.51 160.02 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(reference "#PWR037")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac03868c-9c22-4e98-8413-8cb3afdbfa4d")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 107.188 70.866 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3284,7 +3284,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3300,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbd43be5-e7fd-4163-a9b1-a3f234e2a74d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 		(instances
 			(project ""
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe839b4-28b2-4684-9672-9d3656e1ab4c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 143.51 120.65 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)

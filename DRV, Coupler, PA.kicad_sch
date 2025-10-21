@@ -6013,7 +6013,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 74.93 171.45)
+			(xy 50.8 171.45) (xy 66.04 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6133,7 +6133,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 50.8 127)
+			(xy 66.04 127) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -6243,7 +6243,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 74.93 134.62)
+			(xy 66.04 127) (xy 66.04 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6513,7 +6513,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 171.45) (xy 74.93 139.7)
+			(xy 66.04 171.45) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7373,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 137.16) (xy 52.07 137.16)
+			(xy 63.5 137.16) (xy 52.07 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13988,7 +13988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35R"
+		(property "Value" "35R/No ind"
 			(at 43.18 129.54 0)
 			(effects
 				(font
@@ -14109,7 +14109,7 @@
 	)
 	(symbol
 		(lib_id "Intralha.:L_Ferrite_Taped_Coupled_Small_2")
-		(at 76.2 137.16 270)
+		(at 67.31 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14118,7 +14118,7 @@
 		(fields_autoplaced yes)
 		(uuid "8df064d7-1f4d-4249-ba9f-41178a80de62")
 		(property "Reference" "L5"
-			(at 78.74 135.8899 90)
+			(at 69.85 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14127,7 +14127,7 @@
 			)
 		)
 		(property "Value" "Pre Drv In"
-			(at 78.74 138.4299 90)
+			(at 69.85 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14136,7 +14136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 137.16 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 137.16 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14154,7 @@
 			)
 		)
 		(property "Description" "Ferrite core taped, small symbol"
-			(at 76.2 137.16 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,8 +14580,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35R"
-			(at 38.1 173.99 0)
+		(property "Value" "35R/No ind"
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 0.762 0.762)

@@ -40,3 +40,9 @@ File → Open Project → Omega Radio.kicad_pro
 All schematic and symbol libraries are included in the repository.  
 If KiCad reports missing symbols, ensure that the project’s local library paths are enabled in **Preferences → Manage Symbol Libraries**.
 
+---
+
+## Special Thanks
+
+PU5MNM - MARCO AURELIO MARQUES 
+

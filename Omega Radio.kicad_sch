@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Omega Radio")
-		(comment 1 "Regulator, Microprocessor, Relays ")
+		(comment 1 "Logical ")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2316,16 +2316,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 130.81) (xy 161.29 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cb8767-8814-407d-a8a1-5e6dda01c759")
-	)
-	(wire
-		(pts
 			(xy 116.84 73.66) (xy 120.65 73.66)
 		)
 		(stroke
@@ -2353,16 +2343,6 @@
 			(type default)
 		)
 		(uuid "4c3f74c4-56f2-4049-b183-2276ed8f3cf6")
-	)
-	(wire
-		(pts
-			(xy 153.67 135.89) (xy 161.29 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1fefae-7134-4855-a509-bc6cc17fe39e")
 	)
 	(wire
 		(pts
@@ -2464,16 +2444,6 @@
 		)
 		(uuid "6da2eceb-256d-48c8-8245-6c906248acf4")
 	)
-	(wire
-		(pts
-			(xy 153.67 133.35) (xy 161.29 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77da29d7-3818-485a-868f-77a8206508a3")
-	)
 	(bus
 		(pts
 			(xy 114.3 133.35) (xy 128.27 133.35)
@@ -2573,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "ac556e94-4403-4087-9d8c-243b52685313")
-	)
-	(wire
-		(pts
-			(xy 153.67 138.43) (xy 161.29 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affd65fa-79ad-415c-b88a-783ed56e9bd7")
 	)
 	(wire
 		(pts
@@ -3506,46 +3466,6 @@
 				(justify left top)
 			)
 		)
-		(pin "K1" input
-			(at 161.29 130.81 180)
-			(uuid "95013f9e-5c97-49c6-b303-baa9e50157ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K2" input
-			(at 161.29 133.35 180)
-			(uuid "df6376c1-190a-47a0-96f7-412a6cba1f6f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K3" input
-			(at 161.29 135.89 180)
-			(uuid "bd92fc7e-a3b7-4b0f-90be-6caa7a5962de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "K4" input
-			(at 161.29 138.43 180)
-			(uuid "bc9dea11-a8ac-4ebd-9bd8-3d76d7076043")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
@@ -3592,6 +3512,48 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231 109)
+		(size 13 20)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8c5b8d0-523a-4398-8780-aa50f163fbb1")
+		(property "Sheetname" "RF, IF"
+			(at 231 108.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_if.kicad_sch"
+			(at 231 129.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
+					(page "4")
 				)
 			)
 		)

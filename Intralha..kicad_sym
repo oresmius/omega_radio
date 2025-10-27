@@ -2,6 +2,367 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "Adafruit_Si5351"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Adafruit_Si5351_0_1"
+			(polyline
+				(pts
+					(xy 7 12) (xy 7 -14) (xy -6 -14) (xy -6 12) (xy 7 12)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Adafruit_Si5351_1_1"
+			(text "Adafruit_Si5351 "
+				(at 1 14 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin input line
+				(at -8 7 0)
+				(length 2)
+				(name "CLK0"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8 4 0)
+				(length 2)
+				(name "CLK1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8 1 0)
+				(length 2)
+				(name "CLK2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8 -2 0)
+				(length 2)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8 -5 0)
+				(length 2)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8 -8 0)
+				(length 2)
+				(name "GND"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8 -11 0)
+				(length 2)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 11 180)
+				(length 2)
+				(name "GND1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 8 180)
+				(length 2)
+				(name "P_CLK0"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 5 180)
+				(length 2)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 2 180)
+				(length 2)
+				(name "GND1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 -1 180)
+				(length 2)
+				(name "P_CLK1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 -4 180)
+				(length 2)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 -7 180)
+				(length 2)
+				(name "GND1"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 -10 180)
+				(length 2)
+				(name "P_CLK2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9 -13 180)
+				(length 2)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "L_Ferrite_Taped_Coupled_Small"
 		(pin_names
 			(offset 0.254)

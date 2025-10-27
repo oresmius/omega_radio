@@ -1,0 +1,484 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "31856a74-ec21-4884-8e3d-f5e49c64b762")
+	(paper "A4")
+	(title_block
+		(title "Omega Radio")
+	)
+	(lib_symbols
+		(symbol "Intralha.:Adafruit_Si5351"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_Si5351_0_1"
+				(polyline
+					(pts
+						(xy 7 12) (xy 7 -14) (xy -6 -14) (xy -6 12) (xy 7 12)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Adafruit_Si5351_1_1"
+				(text "Adafruit_Si5351 "
+					(at 1 14 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin input line
+					(at -8 7 0)
+					(length 2)
+					(name "CLK0"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8 4 0)
+					(length 2)
+					(name "CLK1"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8 1 0)
+					(length 2)
+					(name "CLK2"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8 -2 0)
+					(length 2)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8 -5 0)
+					(length 2)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8 -8 0)
+					(length 2)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8 -11 0)
+					(length 2)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 11 180)
+					(length 2)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 8 180)
+					(length 2)
+					(name "P_CLK0"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 5 180)
+					(length 2)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 2 180)
+					(length 2)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 -1 180)
+					(length 2)
+					(name "P_CLK1"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 -4 180)
+					(length 2)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 -7 180)
+					(length 2)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 -10 180)
+					(length 2)
+					(name "P_CLK2"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9 -13 180)
+					(length 2)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.1 1.1)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Intralha.:Adafruit_Si5351")
+		(at 144 103 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cba27c-f937-4202-820d-14eac8d7df56")
+		(property "Reference" "U4"
+			(at 144.6866 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 144.6866 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144 103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144 103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144 103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "535c3137-f474-4e73-9903-4e1d29321c1c")
+		)
+		(pin ""
+			(uuid "a7f6ee0a-c60b-4bf9-9b95-ae2404981c07")
+		)
+		(pin ""
+			(uuid "1dfb0dd1-709e-4112-a2f0-a8a8f74def08")
+		)
+		(pin ""
+			(uuid "61106fd7-f758-4988-a3ed-e2d2dc71e03c")
+		)
+		(pin ""
+			(uuid "8005512c-c0a7-4e2c-b9dd-6cfaa2fe8f49")
+		)
+		(pin ""
+			(uuid "f511560f-ca0c-4c31-b80d-a4d1c9c00c79")
+		)
+		(pin ""
+			(uuid "6c854017-7ca2-4c57-8382-5230d3e4cdde")
+		)
+		(pin ""
+			(uuid "8bc02f8a-653b-48ed-9c0a-104ffd51c517")
+		)
+		(pin ""
+			(uuid "c1444e83-d9b6-4476-b0ac-a31502ac45c0")
+		)
+		(pin ""
+			(uuid "9e1452bb-b483-4908-8136-782ed6b62db0")
+		)
+		(pin ""
+			(uuid "4df9d8a2-d1a1-468a-b750-bf4812d06a2a")
+		)
+		(pin ""
+			(uuid "631955ac-48d8-43e2-b2d5-197afaa598d3")
+		)
+		(pin ""
+			(uuid "d3b82af2-214e-4f00-84bb-6d8ea09a0074")
+		)
+		(pin ""
+			(uuid "ec552312-d6f3-4047-93c0-a23b6b4d8bb7")
+		)
+		(pin ""
+			(uuid "72c07c4d-8841-43de-b52b-f7477751023f")
+		)
+		(pin ""
+			(uuid "faa83061-8a21-41d7-b37a-e30e905f3145")
+		)
+		(instances
+			(project ""
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/d8c5b8d0-523a-4398-8780-aa50f163fbb1"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

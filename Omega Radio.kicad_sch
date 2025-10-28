@@ -3448,7 +3448,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "24312ef5-36e6-40ee-ad2e-2d0b81e7182c")
-		(property "Sheetname" "DRV, Coupler, PA"
+		(property "Sheetname" "DRV, PA"
 			(at 167.64 143.51 90)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DRV, Coupler, PA.kicad_sch"
+		(property "Sheetfile" "DRV, PA.kicad_sch"
 			(at 168.91 148.59 90)
 			(effects
 				(font

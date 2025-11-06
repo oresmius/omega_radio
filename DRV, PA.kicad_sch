@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Omega Radio")
+		(comment 1 "DRV, PA")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small"

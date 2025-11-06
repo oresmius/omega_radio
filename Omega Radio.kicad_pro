@@ -625,16 +625,24 @@
       "Root"
     ],
     [
+      "054ac589-6dd1-4df0-b655-78f47df0dd4e",
+      "Control"
+    ],
+    [
       "c91666e5-be57-4bd6-94e8-10101d3f9109",
       "Power"
+    ],
+    [
+      "d8c5b8d0-523a-4398-8780-aa50f163fbb1",
+      "RF, IF"
     ],
     [
       "24312ef5-36e6-40ee-ad2e-2d0b81e7182c",
       "DRV, PA"
     ],
     [
-      "d8c5b8d0-523a-4398-8780-aa50f163fbb1",
-      "RF, IF"
+      "22f96ef4-9360-4557-9cd6-28177b6e1de3",
+      "LPF(PA cont)"
     ]
   ],
   "text_variables": {}

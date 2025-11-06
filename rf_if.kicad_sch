@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Omega Radio")
+		(comment 1 "RF, IF")
 	)
 	(lib_symbols
 		(symbol "Intralha.:Adafruit_Si5351"

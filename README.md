@@ -6,7 +6,7 @@ Hello, **PY6FX – Fábio** here.
 
 The **receiver** is a tunable super-heterodyne *upconverter* with an IF around **70 MHz**, where an SDR *dongle* is connected. This intermediate frequency has proven ideal for these rather limited devices.  
 
-On **transmission**, four simple and inexpensive **IRF630** MOSFETs operate in a *push-pull* configuration at the final amplification stage with 24V. Since these transistors were not designed for HF, their input impedance is quite irregular and heavy, requiring the emitter follower technique for the gates of these slow MOSFETs. The goal is to achieve about **50 W** on 40m to 10m amateur HF bands.  
+On **transmission**, four simple and inexpensive **IRF630** MOSFETs operate in a *push-pull* configuration at the final amplification stage with 24V. Since these transistors were not designed for HF, their input impedance is quite irregular and heavy, requiring the emitter follower technique for the gates of these slow MOSFETs. The goal is to achieve about **50 W** on 40m to 10m amateur HF bands. The SSB transmission is also generated digitally by SDRange, so there is no need for a PTT, amplifier and audio compressor, filters to suppress one of the sidebands, or BFO.
 
 The **main control and signal generation** are handled by a **Raspberry Pi Pico**, with a **Si5351** providing both **DDS** and **BFO** functions. Since the IF is in VHF, it is easier to deal with the harmonics created by this device.
 

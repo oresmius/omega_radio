@@ -449,7 +449,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "Intralha."
+      "Intralha.",
+      "omega"
     ]
   },
   "meta": {

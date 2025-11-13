@@ -1,0 +1,40 @@
+# KiCad backup files
+*.bak
+*-backups/
+*_cache/
+fp-info-cache
+sym-lib-table
+
+# KiCad temporary files
+*.tmp
+*.kicad_prl
+
+# Backup de símbolos
+*.kicad_sym-bak
+
+# Arquivos gerados automaticamente pelas ferramentas
+*~*
+*.swp
+*.swp
+*.spl
+*.net
+
+# Arquivos de projeto que não precisam ir para o git
+*.lock
+*.sch-bak
+*.kicad_sch-bak
+
+# Arquivos externos que o senhor não quer enviar
+ssb.odt
+Omega.bak
+
+# Backups e arquivos que NÃO vão para o GitHub
+Omega Radio-backups/
+*.bak
+fp-info-cache
+*.odt
+
+# Arquivos temporários do KiCad
+*.kicad_prl
+*.tmp
+*~

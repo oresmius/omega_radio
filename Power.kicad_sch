@@ -9,113 +9,6 @@
 		(comment 1 "Power")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint_Alt"
 			(pin_numbers
 				(hide yes)
@@ -2764,6 +2657,110 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "omega:In_or_Out"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "In_or_Out"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "In_or_Out"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "In_or_Out_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "In_or_Out_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -3291,7 +3288,7 @@
 	)
 	(text "With fuse"
 		(exclude_from_sim no)
-		(at 36.576 25.908 0)
+		(at 45.974 28.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3301,7 +3298,7 @@
 	)
 	(text "With fuse"
 		(exclude_from_sim no)
-		(at 30.988 64.008 0)
+		(at 47.498 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3330,12 +3327,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18174c1a-df09-435f-8129-780af85ba0cc")
-	)
-	(junction
-		(at 179.07 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24723d3c-8944-4895-83fb-c05de7720d93")
 	)
 	(junction
 		(at 170.18 34.29)
@@ -3490,6 +3481,16 @@
 			(type default)
 		)
 		(uuid "0a92a3e1-2ed1-4aa5-a236-5249103e57a9")
+	)
+	(wire
+		(pts
+			(xy 40.64 58.42) (xy 40.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8fc00b-4d93-4a45-af64-e34d3fdeffc8")
 	)
 	(wire
 		(pts
@@ -3713,16 +3714,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 34.29) (xy 179.07 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fdb3efb-1f3a-43e2-bb5f-2187fafef647")
-	)
-	(wire
-		(pts
 			(xy 76.2 45.72) (xy 80.01 45.72)
 		)
 		(stroke
@@ -3763,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 29.21) (xy 39.37 34.29)
+			(xy 39.37 26.67) (xy 39.37 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 179.07 34.29)
+			(xy 170.18 34.29) (xy 189.23 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4194,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 60.96) (xy 41.91 60.96)
+			(xy 40.64 60.96) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4283,13 +4274,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 31.75) (xy 179.07 34.29)
+			(xy 189.23 29.21) (xy 189.23 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f07ffc02-8cbb-4696-bb98-95133d75e9c6")
+		(uuid "fb3fca58-d684-4213-ae41-2e57cfab0d5a")
 	)
 	(wire
 		(pts
@@ -4310,6 +4301,28 @@
 			(type default)
 		)
 		(uuid "fe4cfd26-1f7e-4874-a663-df558524c791")
+	)
+	(global_label "+24V_MAIN"
+		(shape output)
+		(at 189.23 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "812c50d0-060e-4761-baba-63492d6eafdc")
+		(property "Intersheetrefs" "3"
+			(at 189.23 20.7011 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4442,71 +4455,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 179.07 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "074a39bf-2d32-49ec-a160-201db7445577")
-		(property "Reference" "TP1"
-			(at 184.15 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24_SW"
-			(at 181.61 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 179.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91ee528d-5388-4af4-9381-c6f7791641d6")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 41.91 60.96 0)
+		(at 45.72 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5084,7 @@
 		(fields_autoplaced yes)
 		(uuid "2552b081-a454-403d-b463-19271a6ca474")
 		(property "Reference" "#PWR06"
-			(at 41.91 66.04 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,8 +5092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
-			(at 41.783 64.77 0)
+		(property "Value" "GND_S"
+			(at 45.593 64.77 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5153,7 +5101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 62.23 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 62.23 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 41.91 60.96 0)
+			(at 45.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 84.963 64.77 0)
 			(effects
 				(font
@@ -5252,6 +5200,73 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "omega:In_or_Out")
+		(at 39.37 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd95d3d-a82a-45e4-b457-614eeec2a536")
+		(property "Reference" "24V_S"
+			(at 41.91 26.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "In_or_Out"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef58b0e-6a39-4653-bf33-760fcf6af777")
+		)
+		(instances
+			(project ""
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "24V_S")
 					(unit 1)
 				)
 			)
@@ -5389,72 +5404,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 39.37 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d5ab570-1491-4333-a658-2a65c53de136")
-		(property "Reference" "#PWR05"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V_P"
-			(at 40.132 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa99bee1-d8cb-4f15-8963-3980a68e0b8d")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 74.676 64.516 0)
 			(effects
 				(font
@@ -6219,7 +6168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 80.01 64.516 0)
 			(effects
 				(font
@@ -7325,136 +7274,6 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 36.83 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7d21852-0806-4bed-892e-67876426b7a2")
-		(property "Reference" "#PWR04"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_P. In"
-			(at 33.274 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcbd394e-0372-4091-ac44-0338843413fd")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 189.23 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab7000f8-fe00-472a-8983-8ca56fee849d")
-		(property "Reference" "#PWR028"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V_Main"
-			(at 195.326 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 189.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48d82f96-01da-4bcc-9e0f-02a59ca20e61")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
 		(at 35.56 105.41 0)
 		(mirror y)
 		(unit 1)
@@ -7622,7 +7441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 89.408 64.77 0)
 			(effects
 				(font
@@ -7890,7 +7709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 59.563 64.77 0)
 			(effects
 				(font
@@ -7956,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 125.603 64.77 0)
 			(effects
 				(font
@@ -8172,7 +7991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 104.013 64.77 0)
 			(effects
 				(font
@@ -8306,7 +8125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDP."
+		(property "Value" "GND_S"
 			(at 114.173 64.77 0)
 			(effects
 				(font
@@ -8550,6 +8369,72 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "CHASSIS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "omega:In_or_Out")
+		(at 40.64 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2cd39a-a87b-4b59-a1cd-e1e9475289e3")
+		(property "Reference" "GND_S"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "In_or_Out"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00390c1-6c9b-4e49-b79a-abdb2b05037a")
+		)
+		(instances
+			(project ""
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "GND_S")
 					(unit 1)
 				)
 			)

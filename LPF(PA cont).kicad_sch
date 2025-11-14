@@ -2110,6 +2110,28 @@
 		)
 		(uuid "ff2efeba-c78d-4313-aed4-41ab08e0064c")
 	)
+	(global_label "LPF"
+		(shape input)
+		(at 69.85 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "02fbed24-e0d7-45cd-bb83-e9b3a32900b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 31.5464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 104.14 120.65 0)
@@ -3315,72 +3337,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/22f96ef4-9360-4557-9cd6-28177b6e1de3"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 69.85 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c5ba863-ce73-4416-b2d7-cf409826d341")
-		(property "Reference" "#PWR0109"
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "LPF_IN"
-			(at 61.214 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 69.85 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "271b1112-87e7-4631-af56-f566e8bc2522")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/22f96ef4-9360-4557-9cd6-28177b6e1de3"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)

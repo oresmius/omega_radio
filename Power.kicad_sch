@@ -1813,110 +1813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "omega:In_or_Out"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "In_or_Out"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "In_or_Out"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "In_or_Out_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "In_or_Out_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2223,6 +2119,24 @@
 		(uuid "c51335be-f054-4528-ba08-4859b37d3c78")
 	)
 	(junction
+		(at 95.25 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "095d868d-d3d3-4532-9e48-f6af41ae49c5")
+	)
+	(junction
+		(at 138.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1274576b-7150-440b-91b3-98bb4cacccfa")
+	)
+	(junction
+		(at 262.89 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2f5602-da74-42d1-bab3-8db9d0dcd833")
+	)
+	(junction
 		(at 170.18 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2241,10 +2155,46 @@
 		(uuid "3a2c730c-6128-484f-bcef-cda1f34a6a24")
 	)
 	(junction
+		(at 82.55 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d52b771-90f1-4bd7-976e-424a63247d7d")
+	)
+	(junction
+		(at 243.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47e6b4e2-286f-4b2a-af35-d34f7714a144")
+	)
+	(junction
+		(at 130.81 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b60240-4cbf-4f5f-90e5-f1780cab684b")
+	)
+	(junction
 		(at 88.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "741fc343-1edc-4321-8955-aa2d48c75dbf")
+	)
+	(junction
+		(at 255.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75866aa7-87cf-4a25-9994-122988fdfad1")
+	)
+	(junction
+		(at 234.95 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "795c73dd-e5fa-4323-942b-38b193f0fcad")
+	)
+	(junction
+		(at 57.15 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "888932ab-6231-4f6e-a421-2f80578de241")
 	)
 	(junction
 		(at 88.9 49.53)
@@ -2259,10 +2209,40 @@
 		(uuid "8e497355-d327-4a5b-a2e0-1ea49ec6a9e8")
 	)
 	(junction
+		(at 207.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907a12c7-940c-4770-ae15-88f5abd800c6")
+	)
+	(junction
+		(at 196.85 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93fa8e38-655a-4f4e-83b5-790716fe1875")
+	)
+	(junction
+		(at 72.39 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98393fa4-e16c-4703-bc31-8899fecac793")
+	)
+	(junction
 		(at 80.01 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a23fbe05-1204-43a4-bd54-49d6ad8a968f")
+	)
+	(junction
+		(at 119.38 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e191f2-5957-477c-ab73-64aa69b4c736")
+	)
+	(junction
+		(at 110.49 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b59649f2-407f-4ca9-bbf6-9773a1869e00")
 	)
 	(junction
 		(at 76.2 45.72)
@@ -2271,10 +2251,22 @@
 		(uuid "b98ee1de-77b5-4083-a34d-08414a75f53c")
 	)
 	(junction
+		(at 104.14 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad4471f-f878-4699-9e81-516e152a68d3")
+	)
+	(junction
 		(at 104.14 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bda2300a-5527-4971-8e35-674c8d9153c3")
+	)
+	(junction
+		(at 67.31 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beb40698-463a-47e3-8fae-1ed9a10ad101")
 	)
 	(junction
 		(at 114.3 34.29)
@@ -2287,6 +2279,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dac68a71-a217-4c8b-89b1-9da38518742d")
+	)
+	(junction
+		(at 115.57 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5cd57cf-fd6e-4f54-8813-0e76280fce96")
+	)
+	(junction
+		(at 123.19 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9942452-0fc4-4a67-ba25-56a84d03c62f")
 	)
 	(junction
 		(at 162.56 34.29)
@@ -2305,6 +2309,56 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd043683-cf68-4264-abea-f946ba730e78")
+	)
+	(wire
+		(pts
+			(xy 175.26 120.65) (xy 177.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033c5f70-4840-40c9-8c12-56a48751ee0d")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049941ee-5c0d-4247-ad9c-2a21becc803d")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07eae7ee-b67d-456a-b237-b3eb176797c8")
+	)
+	(wire
+		(pts
+			(xy 115.57 171.45) (xy 115.57 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07efd876-67c0-441e-a9b4-1c836c40b994")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b31629f-1499-4e09-b3ee-8f254c03fcef")
 	)
 	(wire
 		(pts
@@ -2328,6 +2382,56 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 111.76) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f52d15a-a4b7-42f2-9a0a-117f9b447e61")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 110.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb00d5c-1553-4bab-a509-131fd863a93b")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101b3c28-61c5-423f-a350-a7e70639a066")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118096a8-2d09-45d9-ad41-38ee0969355a")
+	)
+	(wire
+		(pts
+			(xy 57.15 153.67) (xy 57.15 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123da6d2-a5b2-4441-8fc6-21f9759e227a")
+	)
+	(wire
+		(pts
 			(xy 125.73 34.29) (xy 114.3 34.29)
 		)
 		(stroke
@@ -2348,6 +2452,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 93.98) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a19a4d8-703c-4d36-b42f-26658d9cc817")
+	)
+	(wire
+		(pts
 			(xy 142.24 34.29) (xy 151.13 34.29)
 		)
 		(stroke
@@ -2355,6 +2469,26 @@
 			(type default)
 		)
 		(uuid "1c2c288a-2512-4ed6-95fc-8ece8ba65b7e")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6e9af1-9e31-43dd-9c2d-042a916cdf0a")
+	)
+	(wire
+		(pts
+			(xy 262.89 90.17) (xy 262.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2456a8b5-7033-489f-9bbf-a87f051c7de9")
 	)
 	(wire
 		(pts
@@ -2368,6 +2502,36 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 118.11) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a86bd3-3b00-495e-ad1f-97003c68231d")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 104.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c22461f-8ac9-4468-aaa5-37a206f025c3")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 88.9 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e87d0be-368d-47bb-99c1-60bffd9a414f")
+	)
+	(wire
+		(pts
 			(xy 114.3 34.29) (xy 104.14 34.29)
 		)
 		(stroke
@@ -2375,6 +2539,26 @@
 			(type default)
 		)
 		(uuid "303dbf3d-5df9-42b5-8e17-5aeb25774f0e")
+	)
+	(wire
+		(pts
+			(xy 207.01 120.65) (xy 207.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33151ca8-ef5c-4836-86fc-d271d117f234")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37648b27-de4b-4409-bd8e-494e59ea94f8")
 	)
 	(wire
 		(pts
@@ -2388,6 +2572,46 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 109.22) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3937a48b-f83f-4d99-8d57-8186b9d6dc15")
+	)
+	(wire
+		(pts
+			(xy 82.55 119.38) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4e2582-fa2e-4513-b194-fe179b062b83")
+	)
+	(wire
+		(pts
+			(xy 243.84 93.98) (xy 243.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e20445d-32ab-41ff-8ca0-01e3868785a3")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f70e7a9-2bea-4b68-baa7-85048bff16e2")
+	)
+	(wire
+		(pts
 			(xy 64.77 40.64) (xy 64.77 45.72)
 		)
 		(stroke
@@ -2395,6 +2619,16 @@
 			(type default)
 		)
 		(uuid "3fbe02cb-2f50-4798-87aa-128283017c35")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 88.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457221ea-13ed-46f5-99e0-0e639450fd39")
 	)
 	(wire
 		(pts
@@ -2408,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 92.71) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4777d1bf-2a45-4805-b52f-de090df543d5")
+	)
+	(wire
+		(pts
 			(xy 125.73 60.96) (xy 125.73 49.53)
 		)
 		(stroke
@@ -2415,6 +2659,46 @@
 			(type default)
 		)
 		(uuid "478dcaa7-74dc-441f-9449-a10014b6efd4")
+	)
+	(wire
+		(pts
+			(xy 234.95 93.98) (xy 234.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f04973-62c0-42ad-8dd0-e13b98d6c1f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 57.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e30b2-942c-461f-990c-3f9ef4699a35")
+	)
+	(wire
+		(pts
+			(xy 82.55 92.71) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498f0cc6-3d54-4c59-96d1-399e2ab98794")
+	)
+	(wire
+		(pts
+			(xy 125.73 179.07) (xy 132.08 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4e1914-8940-4f34-8c9f-d1f58608c17e")
 	)
 	(wire
 		(pts
@@ -2438,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 179.07) (xy 132.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e988e6-668e-4ce1-bbc2-b3deac16be2b")
+	)
+	(wire
+		(pts
 			(xy 151.13 34.29) (xy 162.56 34.29)
 		)
 		(stroke
@@ -2445,6 +2739,26 @@
 			(type default)
 		)
 		(uuid "566eb69c-d9c8-4da5-8348-ded8a5902ebe")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5718bb86-3dc1-47af-aa66-a47f5f94b63e")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc4dcaf-4c48-43d5-9181-3cd81dd88a0d")
 	)
 	(wire
 		(pts
@@ -2468,6 +2782,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 109.22) (xy 234.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6043965a-705d-4199-9aea-45bb08ef6225")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 80.01 45.72)
 		)
 		(stroke
@@ -2485,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "636fef70-e990-45ad-9f00-ce1a37b6ec1d")
+	)
+	(wire
+		(pts
+			(xy 35.56 180.34) (xy 38.1 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f69ff9-139d-4742-89a3-724321ce0391")
 	)
 	(wire
 		(pts
@@ -2518,6 +2852,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 153.67) (xy 115.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e803b17-5fee-4914-8ecb-3adbba8abc70")
+	)
+	(wire
+		(pts
 			(xy 142.24 49.53) (xy 142.24 60.96)
 		)
 		(stroke
@@ -2548,6 +2892,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 107.95) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759c3857-5536-4be6-bcd8-1d279f3d010f")
+	)
+	(wire
+		(pts
+			(xy 234.95 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a6ed69-9254-481b-8e4e-2438601af8f2")
+	)
+	(wire
+		(pts
 			(xy 142.24 34.29) (xy 135.89 34.29)
 		)
 		(stroke
@@ -2568,6 +2932,36 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 153.67) (xy 67.31 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81900954-a2d2-49ad-bef6-991b582f1adf")
+	)
+	(wire
+		(pts
+			(xy 265.43 119.38) (xy 271.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875b9c62-69fc-4cf3-8090-7e64842d6e2e")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8839c543-2442-4b4a-8841-b087204a9041")
+	)
+	(wire
+		(pts
 			(xy 162.56 52.07) (xy 162.56 62.23)
 		)
 		(stroke
@@ -2578,6 +2972,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893a23b6-4972-46a2-a9d1-0c85fc4700ae")
+	)
+	(wire
+		(pts
 			(xy 104.14 60.96) (xy 104.14 48.26)
 		)
 		(stroke
@@ -2585,6 +2989,26 @@
 			(type default)
 		)
 		(uuid "89d654ea-a0a6-4d96-b36d-04c10745fc33")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0e9fcc-5795-4d92-b086-99d430400848")
+	)
+	(wire
+		(pts
+			(xy 115.57 153.67) (xy 123.19 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7fb0c5-b8ef-4896-bbcb-6e3cff012683")
 	)
 	(wire
 		(pts
@@ -2608,6 +3032,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 119.38) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924909f9-faf9-428b-af71-d2271c6013d5")
+	)
+	(wire
+		(pts
 			(xy 88.9 46.99) (xy 88.9 49.53)
 		)
 		(stroke
@@ -2615,6 +3049,16 @@
 			(type default)
 		)
 		(uuid "948a737e-d440-4e77-bd9f-4b0d9bf8e9b7")
+	)
+	(wire
+		(pts
+			(xy 262.89 93.98) (xy 281.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c49b11-b50f-476f-8492-f6f839b300e7")
 	)
 	(wire
 		(pts
@@ -2628,6 +3072,56 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 88.9) (xy 281.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df73baa-00a3-46c4-9e9d-f71603f9a422")
+	)
+	(wire
+		(pts
+			(xy 255.27 93.98) (xy 255.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e26667b-b304-4c16-8f2b-8236e76b0e36")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56189c-12b0-445d-a291-fb486565c2a8")
+	)
+	(wire
+		(pts
+			(xy 88.9 180.34) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5d3cc0-0fc5-4a5f-923d-7a6f1f6d31d9")
+	)
+	(wire
+		(pts
+			(xy 123.19 153.67) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05edb98-8110-4d75-8822-a6100c6b096e")
+	)
+	(wire
+		(pts
 			(xy 142.24 34.29) (xy 142.24 44.45)
 		)
 		(stroke
@@ -2635,6 +3129,26 @@
 			(type default)
 		)
 		(uuid "a12e6b1d-05d7-4593-95de-ba8a493b1b34")
+	)
+	(wire
+		(pts
+			(xy 104.14 168.91) (xy 104.14 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45cc0cc-5d8c-4b23-9166-389a1c085502")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4eefd6d-e4fd-46cb-87a1-9b5d494a668a")
 	)
 	(wire
 		(pts
@@ -2648,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 168.91) (xy 95.25 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3a035b-023b-4ac5-85a1-f37d67b422b1")
+	)
+	(wire
+		(pts
 			(xy 114.3 34.29) (xy 114.3 43.18)
 		)
 		(stroke
@@ -2655,6 +3179,26 @@
 			(type default)
 		)
 		(uuid "ae339683-6f35-45b3-9df0-937ec059895d")
+	)
+	(wire
+		(pts
+			(xy 265.43 121.92) (xy 265.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae78a8ae-cdc0-4438-ab6b-72f47d546869")
+	)
+	(wire
+		(pts
+			(xy 218.44 120.65) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2002023-328f-4ddf-85c4-17c8de179654")
 	)
 	(wire
 		(pts
@@ -2675,6 +3219,36 @@
 			(type default)
 		)
 		(uuid "b47979bf-9ee9-4e8d-be7f-ced9d01e3601")
+	)
+	(wire
+		(pts
+			(xy 234.95 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bf1ea9-f447-408b-8209-e9072390bf9f")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ee309e-e4bc-47c9-bd0d-12295c4b6f6d")
+	)
+	(wire
+		(pts
+			(xy 82.55 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7eeaee3-2587-4ea8-96ad-347452a56bcf")
 	)
 	(wire
 		(pts
@@ -2708,6 +3282,46 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 92.71) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb47706-ce55-4c45-a09f-3d96dfcd79e1")
+	)
+	(wire
+		(pts
+			(xy 72.39 106.68) (xy 72.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be561bef-fc7b-42c3-b647-1f6219bc781d")
+	)
+	(wire
+		(pts
+			(xy 243.84 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be730094-63b7-4fe4-a5a9-d090d860ac49")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0235484-54cd-4ad4-bae0-3549e3297be4")
+	)
+	(wire
+		(pts
 			(xy 135.89 60.96) (xy 135.89 49.53)
 		)
 		(stroke
@@ -2715,6 +3329,26 @@
 			(type default)
 		)
 		(uuid "c4580a57-4839-4a19-bfcf-6b4032efd4b6")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.98) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ed74c5-3207-4b84-a982-40ed13e404be")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8975b60-78ac-49ca-adfa-d9fc0038196b")
 	)
 	(wire
 		(pts
@@ -2748,6 +3382,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 153.67) (xy 57.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2109254-7830-4039-9aab-3fc31fa3737c")
+	)
+	(wire
+		(pts
 			(xy 151.13 49.53) (xy 151.13 60.96)
 		)
 		(stroke
@@ -2768,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 153.67) (xy 78.74 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ba47a3-44a2-48a5-bf84-1ba08ebf35b6")
+	)
+	(wire
+		(pts
 			(xy 88.9 38.1) (xy 88.9 34.29)
 		)
 		(stroke
@@ -2775,6 +3429,46 @@
 			(type default)
 		)
 		(uuid "d9020c8a-4937-4385-89bb-0da9c67dd716")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9235f6f-e6c2-456d-803c-6bbb506d1f3a")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 123.19 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97cedaa-9376-41e9-acbf-77c134718abc")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 207.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c12a31-6df5-46e2-b4c5-d3da566ed8df")
+	)
+	(wire
+		(pts
+			(xy 271.78 119.38) (xy 271.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da958b1a-0665-4f9f-834f-47d3df6fc632")
 	)
 	(wire
 		(pts
@@ -2788,6 +3482,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 92.71) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db710823-a034-4d4b-aab4-f98074d39cfa")
+	)
+	(wire
+		(pts
 			(xy 80.01 45.72) (xy 80.01 48.26)
 		)
 		(stroke
@@ -2795,6 +3499,36 @@
 			(type default)
 		)
 		(uuid "dc1ccbdd-9444-4727-95ab-2c91e25c6aa8")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc46758-6b92-4753-b1be-10c0ce41b9a4")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 140.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de35d14f-800e-4c30-8a03-bab811a868aa")
+	)
+	(wire
+		(pts
+			(xy 67.31 180.34) (xy 67.31 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de46a4ca-a2e5-4e87-8a10-b94afb0596fd")
 	)
 	(wire
 		(pts
@@ -2818,6 +3552,36 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 87.63) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4759ece-aded-4d64-8cc5-a4b37e29ee8d")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 104.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c977b6-9439-4172-800f-8427ca8e5b07")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 95.25 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7f37c9-f44a-44e4-8dff-0b17cc349835")
+	)
+	(wire
+		(pts
 			(xy 170.18 30.48) (xy 170.18 34.29)
 		)
 		(stroke
@@ -2825,6 +3589,46 @@
 			(type default)
 		)
 		(uuid "effefdac-2140-4a53-97c0-15155e36d850")
+	)
+	(wire
+		(pts
+			(xy 115.57 153.67) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04326bd-d97e-4c73-a005-9b69df28bff9")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42be3f9-3343-4f6b-884a-cd6f302c8a09")
+	)
+	(wire
+		(pts
+			(xy 104.14 153.67) (xy 104.14 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a69978-bdca-451f-b022-916d0ae42681")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb32de8c-c750-461c-a020-1216f39bad09")
 	)
 	(wire
 		(pts
@@ -2838,6 +3642,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 181.61) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd3d0b6-0746-4391-89b3-62866112ad03")
+	)
+	(wire
+		(pts
+			(xy 78.74 180.34) (xy 78.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe03dc57-08f4-42e8-956b-a403ecec6e12")
+	)
+	(wire
+		(pts
+			(xy 57.15 167.64) (xy 57.15 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2a5d88-9419-4eaf-b1e5-05ca796d92f6")
+	)
+	(wire
+		(pts
 			(xy 76.2 58.42) (xy 76.2 60.96)
 		)
 		(stroke
@@ -2845,6 +3679,126 @@
 			(type default)
 		)
 		(uuid "fe4cfd26-1f7e-4874-a663-df558524c791")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7d3404-1697-4136-98f8-a2c9cc345fa7")
+	)
+	(global_label "GND_ATX"
+		(shape input)
+		(at 50.8 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "015a48fa-57a3-429f-ab3c-2fda962a20d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.711 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape output)
+		(at 157.48 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "29a24cfb-fc52-4ebf-bf94-01396f0f9400")
+		(property "Intersheetrefs" "3"
+			(at 157.48 79.1211 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_ATX"
+		(shape input)
+		(at 35.56 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bc89c89-5aad-42ae-be06-9ebb9199e925")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.471 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_ATX"
+		(shape input)
+		(at 38.1 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "555072a8-bef8-4935-96d7-5fe28d405458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.011 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V_ATX"
+		(shape input)
+		(at 177.8 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a233aaf-7c3c-48be-a0b4-9c28c2a1002d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8967 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+24V_MAIN"
 		(shape output)
@@ -2865,6 +3819,208 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V"
+		(shape input)
+		(at 39.37 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bbc82b6-237b-4401-946c-80637c724bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.3048 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_MAIN"
+		(shape output)
+		(at 142.24 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "c296b6f3-7e02-4809-9070-3c8cfa3103f4")
+		(property "Intersheetrefs" "3"
+			(at 142.24 140.843 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_PS"
+		(shape input)
+		(at 40.64 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5236baf-c562-43c8-a537-171a7da61879")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.3372 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_ATX"
+		(shape input)
+		(at 53.34 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c682c33b-bb4d-449a-98a7-afc3ab50b365")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.0415 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_ATX"
+		(shape input)
+		(at 175.26 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d958c595-1ec3-440d-9784-fa19abf8baef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.171 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V_MAIN"
+		(shape output)
+		(at 281.94 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "f25b15de-49f7-4e4a-87ce-a24f6f9c7c80")
+		(property "Intersheetrefs" "3"
+			(at 281.94 80.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0264ac0e-d7c6-4841-86f7-8b4a33263be3")
+		(property "Reference" "C86"
+			(at 121.92 104.1462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 121.92 106.6862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03e97370-1c4c-4897-9b6a-2b33fc301164")
+		)
+		(pin "2"
+			(uuid "d19f8afa-2218-4841-a213-02f44391cd3b")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C86")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2933,6 +4089,214 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a58f9a-571b-4fa6-b1e5-b1029581b373")
+		(property "Reference" "#PWR0165"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "685908b2-d30a-45e3-8be2-115a8287ad21")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x105NL")
+		(at 99.06 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cc29547-9b28-45ab-b67f-7f3a29f1d8d1")
+		(property "Reference" "FL2"
+			(at 99.06 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6uH/1A CMC"
+			(at 100.33 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common mode choke, 22A, 380VAC, 1mH, 2.1 mOhm, PH9455x105NL"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "770a85e0-9dbc-441c-8b9c-a7aa32db752a")
+		)
+		(pin "1"
+			(uuid "730bb221-33cd-4d72-9087-c5b2bbee55ec")
+		)
+		(pin "2"
+			(uuid "607b4ca8-b794-4bf8-aa4b-ccc5790f4c4e")
+		)
+		(pin "3"
+			(uuid "c56847ca-b467-4323-822e-58a5069eb952")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 110.49 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e30e34b-d070-46bf-b7e6-2cdab0add6cf")
+		(property "Reference" "C85"
+			(at 107.188 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 112.776 105.41 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd49b11c-3f76-4dc5-930a-bdbd632ab7e2")
+		)
+		(pin "1"
+			(uuid "d4ab0c81-c9b5-48df-afc5-0749a9e72f06")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -3143,6 +4507,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 82.55 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d26e644-0f8a-47ac-8b93-e478a074d24d")
+		(property "Reference" "#PWR0140"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 82.423 123.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9fbea80-895c-4509-8bbd-8c4e93e0961e")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 172.72 62.23 0)
 		(unit 1)
@@ -3203,6 +4633,73 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 234.95 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f40f32a-6487-4caf-9085-403033539417")
+		(property "Reference" "C95"
+			(at 231.648 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 237.236 106.68 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4585df14-1f6e-43ac-8da7-08a1738a9e28")
+		)
+		(pin "1"
+			(uuid "f91e1ba5-dee6-42c2-9a85-b298941393a8")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3277,6 +4774,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 218.44 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e2aa47-9bc1-4043-9fca-e0f3037b1256")
+		(property "Reference" "#PWR0160"
+			(at 218.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 218.313 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caba71cf-102f-4353-8e8e-f981de64da21")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 45.72 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3294,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 45.593 64.77 0)
 			(effects
 				(font
@@ -3360,7 +4923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 84.963 64.77 0)
 			(effects
 				(font
@@ -3408,26 +4971,16 @@
 		)
 	)
 	(symbol
-		(lib_id "omega:In_or_Out")
-		(at 39.37 26.67 180)
+		(lib_id "power:GND")
+		(at 243.84 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd95d3d-a82a-45e4-b457-614eeec2a536")
-		(property "Reference" "24V_S01"
-			(at 41.91 26.0349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "In_or_Out"
-			(at 39.37 27.94 0)
+		(uuid "2fa04f04-dfb6-4fc0-9faf-aeccc8ec8253")
+		(property "Reference" "#PWR0163"
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,8 +4988,16 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 247.65 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 39.37 26.67 0)
+			(at 243.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +5006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 26.67 0)
+			(at 243.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,8 +5014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,12 +5024,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "cef58b0e-6a39-4653-bf33-760fcf6af777")
+			(uuid "5c4a2a79-9324-4553-bc98-47095d2d3c9f")
 		)
 		(instances
-			(project ""
+			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "24V_S01")
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33eedd51-1e4d-4052-b9fb-eab43ded91ec")
+		(property "Reference" "#PWR0152"
+			(at 88.9 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b1465d-4186-4962-99d8-984a97fbba58")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -3542,6 +5169,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 93.98 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be5178a-61b3-4840-973b-b6b8ec6fc36a")
+		(property "Reference" "#PWR0141"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 93.853 123.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd56b8e3-cf1a-4bc5-8668-5b9a1bf1efd8")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 57.15 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6c4625-b060-4563-b782-78d054363f72")
+		(property "Reference" "#PWR0149"
+			(at 57.15 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 57.023 184.15 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe01870-6a17-46e2-8d7d-a82e53452df3")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 177.8 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e8dad65-d9d1-44cb-bffe-ef18fa848981")
+		(property "Reference" "#PWR0157"
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 177.673 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d94d97-e321-4010-a7e7-9f53cbd231c5")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 170.18 27.94 0)
 		(unit 1)
@@ -3609,6 +5434,412 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 78.74 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "410cce10-19ab-42a5-826a-390e70b8685d")
+		(property "Reference" "#PWR0151"
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 78.613 184.15 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71910c70-a8e6-4f9d-9fc2-5be6c6ff76ec")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:5KPxxA")
+		(at 115.57 167.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42c450ea-d53b-4613-ad2f-fcabe9848f06")
+		(property "Reference" "D17"
+			(at 117.856 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P6KE6.8A"
+			(at 119.888 167.64 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ff27108-7233-430b-8290-9883b2da39af")
+		)
+		(pin "1"
+			(uuid "0a2545ae-2970-4044-8383-37b73140ec23")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 207.01 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "445c79a9-310a-4d13-91e2-a74168276a69")
+		(property "Reference" "C94"
+			(at 213.36 104.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 211.074 105.41 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a85ad9c5-e937-4431-98f6-f04093077a80")
+		)
+		(pin "1"
+			(uuid "1f2bb203-25b4-4a40-b267-fd0c2251f122")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4483a08b-9b92-4c7e-a15f-70133c8eba3c")
+		(property "Reference" "C91"
+			(at 106.68 165.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 167.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd958e39-8ebd-4fb2-844b-536b53ea5eb6")
+		)
+		(pin "2"
+			(uuid "6f30f7f1-cd89-4815-9e6f-19f9218ea5b3")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:5KPxxA")
+		(at 130.81 106.68 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45358b09-1327-454f-a42b-5c8c6e6f7ae9")
+		(property "Reference" "D16"
+			(at 133.096 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P6KE15A"
+			(at 135.128 106.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92becec9-7446-4da1-9ee8-738458526cbf")
+		)
+		(pin "1"
+			(uuid "5ebdf6ca-0d95-4861-bb14-de25a0c78909")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 132.08 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f7c0463-d1ee-454a-a34c-25dec570ed43")
+		(property "Reference" "CHASSIS6"
+			(at 130.048 186.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 130.8101 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf61bdf-f0db-4bc9-89c1-8e18a3760eeb")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener_Small")
 		(at 67.31 45.72 180)
 		(unit 1)
@@ -3670,6 +5901,137 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "531589b8-3ae7-485f-a81c-c7ef494a6b39")
+		(property "Reference" "#PWR0145"
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d28d8a24-eabe-434d-89d0-4aec18cf2085")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53bde1b2-2bfd-4ad0-9147-46a58f2fc900")
+		(property "Reference" "#PWR0154"
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3473297f-cce4-4393-8b85-3176ebc5dbb1")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -3744,6 +6106,137 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 234.95 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555609b1-7004-4855-aae5-ed12752623ae")
+		(property "Reference" "#PWR0162"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d52f747-5185-489b-bcc5-a2ae89ece8c7")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ddad15-b7f4-4469-9771-ea2fb62041ec")
+		(property "Reference" "#PWR0146"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f01214b-ab09-4857-a344-907abbb70376")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 151.13 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3808,6 +6301,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cfc9f67-ec86-4a5e-88eb-6c456df2a4bd")
+		(property "Reference" "C83"
+			(at 78.232 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.2 104.14 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15bda35b-1bab-4e5f-8cc7-02a0fe4e0e3d")
+		)
+		(pin "2"
+			(uuid "d49a8244-16ed-4e6e-8cd3-8e1b0a9bd38b")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 76.2 60.96 0)
 		(unit 1)
@@ -3825,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 74.676 64.516 0)
 			(effects
 				(font
@@ -3867,6 +6427,71 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e2eda7-8148-4779-8d31-3ac2e7432d60")
+		(property "Reference" "#PWR0153"
+			(at 95.25 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8a3b74f-4714-49a9-84ae-664994c130e8")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -3934,6 +6559,73 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5c25ea-e13a-4063-870a-7ec32f15f637")
+		(property "Reference" "C88"
+			(at 62.992 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 60.96 165.1 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f6d1a97-e20d-45e3-949f-302780930bff")
+		)
+		(pin "2"
+			(uuid "82d92f9d-bf08-4a91-a606-763cbb2366c6")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -4023,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 80.01 64.516 0)
 			(effects
 				(font
@@ -4206,6 +6898,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 147.32 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d01bc3-4f90-4e7a-88fd-df199172aea7")
+		(property "Reference" "CHASSIS4"
+			(at 145.288 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 146.0501 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b194ea33-b5b1-4ffe-acff-8f39bdc431fb")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 72.39 45.72 90)
 		(mirror x)
@@ -4337,6 +7096,72 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7a561f-3573-48cf-b581-7daaab350ec3")
+		(property "Reference" "#PWR0156"
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "add8bc3a-8d1c-4b76-bc5b-f9b2304f17c7")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -4477,6 +7302,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 67.31 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e277e2e-0f1c-4c77-bcf9-3b1f2ede174c")
+		(property "Reference" "#PWR0150"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 67.183 184.15 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5fdda7-60a0-42ac-9dc5-b3ff6adaef2f")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 262.89 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14b96f7-2975-493e-a476-6e47d2776244")
+		(property "Reference" "CHASSIS7"
+			(at 265.43 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 264.1599 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4b11c19-18ee-436a-a49a-38e54c87a7d0")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x105NL")
 		(at 130.81 46.99 0)
 		(unit 1)
@@ -4552,6 +7509,206 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a877303d-8bad-45a1-a8c6-cd64ea6c7923")
+		(property "Reference" "#PWR0142"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e31578dc-5e8b-4867-a99c-c91bcdb82b3d")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0cd9bd0-c076-4af5-8411-fe63cb3edf70")
+		(property "Reference" "C87"
+			(at 132.842 83.312 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "CY- 4,7nF"
+			(at 135.128 83.312 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ff5dfe2-eabd-49b9-92b2-e9e184bb3cf5")
+		)
+		(pin "1"
+			(uuid "346b6b36-1314-4977-b30a-d098b00d6c12")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 271.78 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1a5bd54-387c-4312-81d0-3ec283b3cea9")
+		(property "Reference" "CHASSIS8"
+			(at 269.748 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 270.5101 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 271.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba03f244-c524-4adc-8480-7f02b651cb9a")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 88.9 60.96 0)
 		(unit 1)
@@ -4569,7 +7726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 89.408 64.77 0)
 			(effects
 				(font
@@ -4611,6 +7768,72 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 38.1 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b38eb5e7-0162-4a0f-aa90-ee0dea6d333d")
+		(property "Reference" "#PWR0148"
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 37.973 184.15 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a00153-7d50-469e-9fef-bc638dcd0ef7")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -4688,6 +7911,412 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 255.27 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b69060dc-0ad5-4b6a-bcaa-63c0050d6144")
+		(property "Reference" "#PWR0164"
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3773ef7-fd63-40a1-88d1-f263531fc8e2")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b72abb84-402b-4f84-a33e-18666637c20f")
+		(property "Reference" "C92"
+			(at 117.602 144.272 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "CY- 4,7nF"
+			(at 119.888 144.272 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21a63ea3-1ebb-4109-bf5b-ccdd28d6a4d8")
+		)
+		(pin "1"
+			(uuid "e33d9424-2775-4420-9a62-7e570e48254a")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 72.39 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba3464dd-0407-47c5-bb04-eca344653aee")
+		(property "Reference" "#PWR0139"
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 72.263 123.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17877ff6-03a9-404f-a118-c2527f1a0148")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x105NL")
+		(at 223.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8755ad-7102-4873-9d9e-75e36a9c9d88")
+		(property "Reference" "FL4"
+			(at 223.52 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6uH/1A CMC"
+			(at 224.79 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common mode choke, 22A, 380VAC, 1mH, 2.1 mOhm, PH9455x105NL"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d644bb84-be64-4434-ac5c-d4111fc3661d")
+		)
+		(pin "1"
+			(uuid "c5ef1c58-3c31-4317-aed4-a27373ee8ddc")
+		)
+		(pin "2"
+			(uuid "41d57161-2ba2-459d-8f31-5d3757f32cf5")
+		)
+		(pin "3"
+			(uuid "c49e2607-a97c-4936-96ad-86ab6b07cca7")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "FL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 53.34 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8b54ca-cb1f-473f-8c44-14c42175ab03")
+		(property "Reference" "#PWR0147"
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 53.213 123.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98417b9-6ec7-4c35-8943-61d844dd0518")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 207.01 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bead02f8-5b23-4ba4-b12d-148a3327d384")
+		(property "Reference" "#PWR0159"
+			(at 207.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 206.883 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 207.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40073a0-9d5b-49fb-8fdd-d5b2322a0227")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 162.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4753,6 +8382,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 119.38 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c15c25-5c57-4205-b50f-31bbc22a56d4")
+		(property "Reference" "#PWR0144"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146976e0-d1c7-4bfc-821b-59ac476ccbb8")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 59.69 60.96 0)
 		(unit 1)
@@ -4771,7 +8465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 59.563 64.77 0)
 			(effects
 				(font
@@ -4819,6 +8513,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 82.55 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf777513-8568-4c97-92dc-4141a338b1e9")
+		(property "Reference" "C84"
+			(at 88.9 103.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 86.614 104.14 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 82.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5148c380-af43-4688-99ad-4109d9c407ad")
+		)
+		(pin "1"
+			(uuid "f58a5add-c5cd-440c-a601-4968405684de")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 125.73 60.96 0)
 		(unit 1)
@@ -4837,7 +8598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 125.603 64.77 0)
 			(effects
 				(font
@@ -4879,6 +8640,207 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d23a4220-4e4d-4b44-8cc0-7a208d855138")
+		(property "Reference" "C97"
+			(at 257.302 84.582 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "CY- 4,7nF"
+			(at 259.588 84.582 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 262.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d516e2f0-4d1c-4216-b1aa-6bf83604d577")
+		)
+		(pin "1"
+			(uuid "5ed3a90d-fa2d-4a70-903d-9b2b03d221f6")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d34d7f64-bf7b-422b-b615-6c4d3a8bb4b4")
+		(property "Reference" "C93"
+			(at 202.692 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 200.66 105.41 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8bad01a-bb5b-4083-8a02-ba42d5d80e60")
+		)
+		(pin "2"
+			(uuid "a3f7cb62-6754-4d62-8498-c915f42beb33")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 67.31 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e09717-2983-47a8-b22e-b3d53928a818")
+		(property "Reference" "C89"
+			(at 73.66 164.5539 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 71.374 165.1 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be583813-e16d-48fa-a1d0-30659875ea5d")
+		)
+		(pin "1"
+			(uuid "3f24b3dc-4f68-4729-a558-370ac47f5eb2")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -4970,6 +8932,206 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7cfd69e-7c26-4f4f-8103-00ce111d0a51")
+		(property "Reference" "#PWR0155"
+			(at 115.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72701c64-eb29-40fe-a7eb-6d2816cf1caf")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:5KPxxA")
+		(at 255.27 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d858855f-140b-499d-a92f-d7e458a97e7d")
+		(property "Reference" "D18"
+			(at 257.556 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMBJ3.3A"
+			(at 259.588 107.95 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
+			(at 260.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
+			(at 255.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
+			(at 255.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e46145bd-c8af-483e-b749-845b2a7545c2")
+		)
+		(pin "1"
+			(uuid "d06dbc58-33ae-447d-9030-6aded839f03f")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 138.43 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dca85b1d-4949-4c9e-a377-bd0e23ac9a74")
+		(property "Reference" "CHASSIS3"
+			(at 140.97 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 139.6999 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f71a451-213a-465d-b09a-309a20c7a878")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 104.14 60.96 0)
 		(unit 1)
@@ -4988,7 +9150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 104.013 64.77 0)
 			(effects
 				(font
@@ -5030,6 +9192,138 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df15d3fc-e2a8-4214-bc14-e86d4afce22c")
+		(property "Reference" "#PWR0161"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c6fcff3-3003-4324-aab3-7869fef47d0b")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 196.85 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df29ca49-8b10-49cd-b906-486df9cc93e4")
+		(property "Reference" "#PWR0158"
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ATX"
+			(at 196.723 124.46 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb617e66-adb8-4089-bdda-33febe5b16bc")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -5104,6 +9398,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 243.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2186e6b-318b-4ccc-a1d4-47aef4e8478b")
+		(property "Reference" "C96"
+			(at 246.38 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 246.38 107.9562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17647493-4944-47f8-8f49-04885f7cac7d")
+		)
+		(pin "2"
+			(uuid "a87e47ca-841c-4e20-8411-046ef59b1657")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 114.3 60.96 0)
 		(unit 1)
@@ -5122,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_S"
+		(property "Value" "GND_PS"
 			(at 114.173 64.77 0)
 			(effects
 				(font
@@ -5164,6 +9528,214 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 123.19 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e97ee41d-08fa-41f8-abdc-80fa62be44d9")
+		(property "Reference" "CHASSIS5"
+			(at 125.73 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 124.4599 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 123.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00ebf075-9962-47d4-ae7c-abd170d45e2c")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "CHASSIS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x105NL")
+		(at 83.82 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ede6756b-df54-4c2b-a099-07a4e28dc704")
+		(property "Reference" "FL3"
+			(at 83.82 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6uH/1A CMC"
+			(at 85.09 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455x105NL_1"
+			(at 83.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
+			(at 83.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common mode choke, 22A, 380VAC, 1mH, 2.1 mOhm, PH9455x105NL"
+			(at 83.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f5b4833f-5180-4667-9e17-b789f0af164a")
+		)
+		(pin "1"
+			(uuid "6ed812a6-01fb-4621-b415-67116ce09d5c")
+		)
+		(pin "2"
+			(uuid "bb80b855-9300-4a53-865a-259b278594ff")
+		)
+		(pin "3"
+			(uuid "cc3600b7-4eb9-443c-b5c0-b66afd0ba74d")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "FL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 95.25 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f03a2f04-f7df-4b28-98d2-ed77316bc469")
+		(property "Reference" "C90"
+			(at 91.948 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 97.536 166.37 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 95.25 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd1c829c-ef11-4315-80c8-3b1ac2531fc7")
+		)
+		(pin "1"
+			(uuid "d8d1b3c5-2c83-459d-a9f8-e7a956601b19")
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -5237,25 +9809,16 @@
 		)
 	)
 	(symbol
-		(lib_id "omega:In_or_Out")
-		(at 40.64 58.42 180)
+		(lib_id "power:GND")
+		(at 110.49 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff2cd39a-a87b-4b59-a1cd-e1e9475289e3")
-		(property "Reference" "GND_S01"
-			(at 43.18 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "In_or_Out"
-			(at 40.64 59.69 0)
+		(uuid "f2683ccf-9d5c-4b60-8cce-f0d4e2d3a44e")
+		(property "Reference" "#PWR0143"
+			(at 110.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,8 +9826,16 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 113.03 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 40.64 58.42 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 58.42 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,8 +9852,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,12 +9862,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f00390c1-6c9b-4e49-b79a-abdb2b05037a")
+			(uuid "f3031b6b-27a9-4518-a933-29eaf44607a6")
 		)
 		(instances
-			(project ""
+			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/c91666e5-be57-4bd6-94e8-10101d3f9109"
-					(reference "GND_S01")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)

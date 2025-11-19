@@ -21,6 +21,13 @@ The name *Omega Radio* refers both to the **survivalist spirit** and to the scie
 This is an **open-source project**, under **continuous development**, made available **for educational and experimental purposes**.  
 Its use, modification, and reproduction are **free**, provided there is **no commercial intent** and **proper credit is given to the original author (PY6FX – Fábio)**.  
 
+**GNU GENERAL PUBLIC LICENSE**
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
 The project **comes with no guarantees of performance or safety** and should be used **at the builder’s own risk**.  
 
 ---

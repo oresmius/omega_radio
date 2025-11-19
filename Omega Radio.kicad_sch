@@ -88,7 +88,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -129,7 +129,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -214,6 +214,48 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 19.05)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec53c5ee-9461-45e2-ad09-a1b0259ff68e")
+		(property "Sheetname" "BPF"
+			(at 144.78 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BPF.kicad_sch"
+			(at 144.78 23.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Omega Radio"
+				(path "/3468ce30-82a7-4087-a7ac-02063723d842"
+					(page "5")
 				)
 			)
 		)

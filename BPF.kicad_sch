@@ -3869,7 +3869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a3aa578-5370-4cd3-99d0-db8080c55cbf")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0116"
 			(at 226.06 41.91 0)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR0101")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3934,7 +3934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b87e9f9-94e9-46de-ac61-2257726fbbb7")
-		(property "Reference" "L16"
+		(property "Reference" "L19"
 			(at 151.13 79.502 90)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L16")
+					(reference "L19")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c20caf8-51c2-4902-8d13-d1157d968e47")
-		(property "Reference" "Q9"
+		(property "Reference" "Q11"
 			(at 135.89 48.2599 0)
 			(effects
 				(font
@@ -4064,7 +4064,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q9")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f8f9f95-3d20-4c3b-905d-457034911c62")
-		(property "Reference" "C64"
+		(property "Reference" "C75"
 			(at 135.636 34.544 0)
 			(effects
 				(font
@@ -4133,7 +4133,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C64")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ab4eff-cb43-46ba-b5b5-1a972aa2c475")
-		(property "Reference" "L2"
+		(property "Reference" "L5"
 			(at 59.69 78.7399 0)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L2")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11607dbc-434e-4908-8827-f9c44657c405")
-		(property "Reference" "C58"
+		(property "Reference" "C69"
 			(at 99.0536 74.93 90)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C58")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153e9dcd-d55a-49d7-8dbb-81c24e9610df")
-		(property "Reference" "C57"
+		(property "Reference" "C68"
 			(at 99.0536 36.83 90)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C57")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -4357,7 +4357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c42b99-c60f-40b7-b92c-86da7e0bbc03")
-		(property "Reference" "C71"
+		(property "Reference" "C82"
 			(at 147.32 101.5935 0)
 			(effects
 				(font
@@ -4411,7 +4411,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C71")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17759ed7-cdb0-4742-9817-617df8e75bbc")
-		(property "Reference" "C60"
+		(property "Reference" "C71"
 			(at 102.8636 165.1 90)
 			(effects
 				(font
@@ -4480,7 +4480,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C60")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19917a36-700c-42d5-ab78-762a2e8f123b")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR099"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR084")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b6d5917-9511-41a7-8cd4-bfaafd7e1cff")
-		(property "Reference" "L11"
+		(property "Reference" "L14"
 			(at 81.28 116.84 90)
 			(effects
 				(font
@@ -4613,7 +4613,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L11")
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1ced13-ee76-4787-af80-fbcdda142324")
-		(property "Reference" "C78"
+		(property "Reference" "C89"
 			(at 193.0336 97.79 90)
 			(effects
 				(font
@@ -4682,7 +4682,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C78")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -4699,7 +4699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de74a38-1cad-45e0-9f8e-6a642d5c3df6")
-		(property "Reference" "C59"
+		(property "Reference" "C70"
 			(at 99.0536 120.65 90)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C59")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e899c3c-fc75-4eb3-8510-0162ab741583")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0109"
 			(at 144.78 113.03 0)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR094")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "209fc826-38b3-46c1-8894-7b5ca5826a9e")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 41.91 31.7499 0)
 			(effects
 				(font
@@ -4893,7 +4893,7 @@
 		(instances
 			(project ""
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4909,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22beeb14-0bbc-431b-8183-c70396de2b8d")
-		(property "Reference" "C38"
+		(property "Reference" "C49"
 			(at 29.2036 62.23 90)
 			(effects
 				(font
@@ -4961,7 +4961,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C38")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4976,7 +4976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24c1d147-b469-46f5-a170-70781d5ad9a9")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0103"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR088")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5041,7 +5041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24c35d85-3e21-42ac-8e4b-f94e1933fae9")
-		(property "Reference" "C41"
+		(property "Reference" "C52"
 			(at 44.196 18.034 0)
 			(effects
 				(font
@@ -5095,7 +5095,7 @@
 		(instances
 			(project ""
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C41")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2581c137-c3dc-47a2-8fa6-0e88ab6c7548")
-		(property "Reference" "L8"
+		(property "Reference" "L11"
 			(at 68.58 168.9099 0)
 			(effects
 				(font
@@ -5165,7 +5165,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L8")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25cebdb8-ac5c-426a-a876-ebaef3bb2b02")
-		(property "Reference" "C45"
+		(property "Reference" "C56"
 			(at 49.53 78.7335 0)
 			(effects
 				(font
@@ -5235,7 +5235,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C45")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -5250,7 +5250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26131f43-49b1-4384-b0c3-201df38d96c1")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0110"
 			(at 147.32 135.89 0)
 			(effects
 				(font
@@ -5300,7 +5300,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR095")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27226b2b-bde1-4b8c-8638-a465d001904c")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0114"
 			(at 218.44 41.91 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR099")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -5381,7 +5381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2be5c644-60d7-4654-8f42-5498c823cca8")
-		(property "Reference" "Q5"
+		(property "Reference" "Q7"
 			(at 92.964 74.676 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q5")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -5457,7 +5457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e14b049-55e6-4dc1-81d2-3d17a99e1696")
-		(property "Reference" "C55"
+		(property "Reference" "C66"
 			(at 72.3836 115.57 90)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C55")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -5524,7 +5524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e953c49-83b7-4c88-9acc-0e67996c64a4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR093"
 			(at 49.53 156.21 0)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR078")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "313f0e48-bbd4-483a-b510-4a98f4904ffc")
-		(property "Reference" "C40"
+		(property "Reference" "C51"
 			(at 39.3636 152.4 90)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C40")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "316525b7-9fcf-485e-9d43-dbcf7d89b29a")
-		(property "Reference" "Q8"
+		(property "Reference" "Q10"
 			(at 99.314 163.322 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q8")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5734,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38c09a3e-e3fd-41fb-a47f-42a48fa8500b")
-		(property "Reference" "L12"
+		(property "Reference" "L15"
 			(at 86.36 161.29 90)
 			(effects
 				(font
@@ -5786,7 +5786,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L12")
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -5801,7 +5801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39374df3-3b7c-4344-888f-31ec2e13f5f7")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR092"
 			(at 49.53 66.04 0)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR077")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5867,7 +5867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f1dc6e-37d4-45fa-9b86-673ba0b3f125")
-		(property "Reference" "L15"
+		(property "Reference" "L18"
 			(at 153.67 148.5899 0)
 			(effects
 				(font
@@ -5921,7 +5921,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L15")
+					(reference "L18")
 					(unit 1)
 				)
 			)
@@ -5937,7 +5937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ef8bdc-9d09-4dad-b2a1-0bccab14d5a6")
-		(property "Reference" "C46"
+		(property "Reference" "C57"
 			(at 52.07 17.7863 0)
 			(effects
 				(font
@@ -5991,7 +5991,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C46")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6007,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f40638-1dc1-4dc6-b111-380d94c41b82")
-		(property "Reference" "C68"
+		(property "Reference" "C79"
 			(at 143.51 34.2963 0)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C68")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -6077,7 +6077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4478dceb-6c70-48c7-bc9e-40393f3e53af")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0111"
 			(at 151.13 68.58 0)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR096")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce80725-e116-4a24-8d0c-fca012bddcb5")
-		(property "Reference" "L22"
+		(property "Reference" "L25"
 			(at 236.22 54.6099 0)
 			(effects
 				(font
@@ -6197,7 +6197,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L22")
+					(reference "L25")
 					(unit 1)
 				)
 			)
@@ -6213,7 +6213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb96820-5a26-42f7-aca2-4552a928301d")
-		(property "Reference" "C72"
+		(property "Reference" "C83"
 			(at 149.86 125.7363 0)
 			(effects
 				(font
@@ -6267,7 +6267,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C72")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -6282,7 +6282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54681e9e-2afe-48a9-8dd4-ec2527ba9ec0")
-		(property "Reference" "R26"
+		(property "Reference" "R37"
 			(at 37.592 19.05 90)
 			(effects
 				(font
@@ -6336,7 +6336,7 @@
 		(instances
 			(project ""
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R26")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5477ec0d-354a-4109-bad6-8d5c556790ee")
-		(property "Reference" "C79"
+		(property "Reference" "C90"
 			(at 209.5436 38.1 90)
 			(effects
 				(font
@@ -6404,7 +6404,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C79")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60287b1e-cc91-4e79-8289-8b33b59b1d5f")
-		(property "Reference" "C43"
+		(property "Reference" "C54"
 			(at 45.466 100.584 0)
 			(effects
 				(font
@@ -6473,7 +6473,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C43")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -6489,7 +6489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61dade2f-f463-44bc-85ba-82d4b83cd401")
-		(property "Reference" "C49"
+		(property "Reference" "C60"
 			(at 53.34 100.3363 0)
 			(effects
 				(font
@@ -6543,7 +6543,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C49")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ba0d68-7df7-4395-9824-70d596be70a6")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR090"
 			(at 46.99 90.17 0)
 			(effects
 				(font
@@ -6608,7 +6608,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR075")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6624,7 +6624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67966899-fa41-4d45-83d2-290e7c9d01ca")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR097"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -6674,7 +6674,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR082")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67bedae3-606d-4f42-88cf-68bdc01dd153")
-		(property "Reference" "C42"
+		(property "Reference" "C53"
 			(at 44.196 56.134 0)
 			(effects
 				(font
@@ -6743,7 +6743,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C42")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "684e645f-7d8c-40ae-a338-2888bfa62352")
-		(property "Reference" "C48"
+		(property "Reference" "C59"
 			(at 51.816 146.304 0)
 			(effects
 				(font
@@ -6812,7 +6812,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C48")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -6827,7 +6827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "689126ef-2ae3-4aa5-b59a-ca505d767b30")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR098"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR083")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -6893,7 +6893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a5aab81-2ce2-43e5-8fef-5d5206d56c50")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0115"
 			(at 223.52 66.04 0)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR0100")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -6958,7 +6958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bb4a4bc-9e29-4b79-b998-741eb4612d00")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR087"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -7008,7 +7008,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR072")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7025,7 +7025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfb83e5-d2e3-401a-9d1c-288791853bdf")
-		(property "Reference" "C76"
+		(property "Reference" "C87"
 			(at 186.6836 53.34 90)
 			(effects
 				(font
@@ -7077,7 +7077,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C76")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -7092,7 +7092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dcb295d-2dfb-4bde-8135-0184206c0507")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0105"
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR090")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7158,7 +7158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e2b8270-c495-4814-a024-312c6563afdd")
-		(property "Reference" "Q14"
+		(property "Reference" "Q16"
 			(at 188.976 97.028 0)
 			(effects
 				(font
@@ -7218,7 +7218,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q14")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f3e77a6-d47b-46e0-a39b-eb10769347f5")
-		(property "Reference" "C37"
+		(property "Reference" "C48"
 			(at 29.2036 24.13 90)
 			(effects
 				(font
@@ -7286,7 +7286,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C37")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -7302,7 +7302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f8f493d-b65c-425c-a31b-3541ccd1fbd0")
-		(property "Reference" "L10"
+		(property "Reference" "L13"
 			(at 77.47 71.12 90)
 			(effects
 				(font
@@ -7354,7 +7354,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L10")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fac177e-7c6c-464d-9b98-c283de5639f3")
-		(property "Reference" "R28"
+		(property "Reference" "R39"
 			(at 38.862 101.6 90)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R28")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72708c7a-671b-4c33-a103-77d5963bbb89")
-		(property "Reference" "R30"
+		(property "Reference" "R41"
 			(at 129.032 35.56 90)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R30")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -7509,7 +7509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73cd17a9-78a3-47a8-abaf-bb8b2be69330")
-		(property "Reference" "C84"
+		(property "Reference" "C95"
 			(at 270.5036 50.8 90)
 			(effects
 				(font
@@ -7561,7 +7561,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C84")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -7576,7 +7576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7428db6b-8c3a-4110-8f37-a51431e9e116")
-		(property "Reference" "R32"
+		(property "Reference" "R43"
 			(at 135.382 127 90)
 			(effects
 				(font
@@ -7630,7 +7630,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R32")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7646,7 +7646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768cf289-8248-469e-bdd8-6b15ac022a36")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 52.07 160.0199 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q4")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b503c54-7782-4137-a8b8-30b9ff7f2242")
-		(property "Reference" "Q7"
+		(property "Reference" "Q9"
 			(at 94.996 119.38 0)
 			(effects
 				(font
@@ -7782,7 +7782,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q7")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7798,7 +7798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7efde07e-65f3-4b87-83a2-1e82f334ee41")
-		(property "Reference" "C66"
+		(property "Reference" "C77"
 			(at 142.24 57.1435 0)
 			(effects
 				(font
@@ -7852,7 +7852,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C66")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -7868,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc23a81-073c-44a8-b156-0f25306cf012")
-		(property "Reference" "C70"
+		(property "Reference" "C81"
 			(at 146.05 78.7463 0)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C70")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -7938,7 +7938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8157a72a-2d1b-4a9f-ae0d-a057b960b478")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0112"
 			(at 152.4 160.02 0)
 			(effects
 				(font
@@ -7988,7 +7988,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR097")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85752ef4-adb8-4038-bbdd-d8f5bcba3b16")
-		(property "Reference" "R27"
+		(property "Reference" "R38"
 			(at 37.592 57.15 90)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R27")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a1e8aa7-d6e9-450c-a010-89bc411cd486")
-		(property "Reference" "L20"
+		(property "Reference" "L23"
 			(at 171.45 140.97 90)
 			(effects
 				(font
@@ -8125,7 +8125,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L20")
+					(reference "L23")
 					(unit 1)
 				)
 			)
@@ -8141,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c972fa3-7197-45d4-83eb-673d30edca60")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 58.42 40.6399 0)
 			(effects
 				(font
@@ -8195,7 +8195,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L1")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8210,7 +8210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee614aa-05ec-4de9-9ed4-edea0648b237")
-		(property "Reference" "C65"
+		(property "Reference" "C76"
 			(at 138.176 78.994 0)
 			(effects
 				(font
@@ -8264,7 +8264,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C65")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -8280,7 +8280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f28572d-2347-40ff-9245-1cc69c5aae44")
-		(property "Reference" "C51"
+		(property "Reference" "C62"
 			(at 58.42 168.9035 0)
 			(effects
 				(font
@@ -8334,7 +8334,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C51")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90748272-6ae6-44aa-a327-d6e15991547a")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR096"
 			(at 55.88 180.34 0)
 			(effects
 				(font
@@ -8400,7 +8400,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR081")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8416,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d95e79-7895-4559-afc4-3b346254722f")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 41.91 69.8499 0)
 			(effects
 				(font
@@ -8476,7 +8476,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8491,7 +8491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92457a09-c051-48d3-a55a-4047523c4cce")
-		(property "Reference" "L7"
+		(property "Reference" "L10"
 			(at 64.77 146.812 90)
 			(effects
 				(font
@@ -8545,7 +8545,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L7")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -8560,7 +8560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b09eb9-8c07-4d55-93ec-c3734e0c2c81")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR094"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -8610,7 +8610,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR079")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -8626,7 +8626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e8f308-ae19-4f00-ba98-0fee1d2a28d0")
-		(property "Reference" "Q11"
+		(property "Reference" "Q13"
 			(at 139.7 139.6999 0)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q11")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -8701,7 +8701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97a7c694-c555-49cd-bdc6-779294677d04")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR086"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -8751,7 +8751,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR071")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8767,7 +8767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99580cc3-b395-47be-b83d-951fb3ec688c")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0117"
 			(at 234.95 66.04 0)
 			(effects
 				(font
@@ -8817,7 +8817,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR0102")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -8833,7 +8833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ad7d4ba-0bd4-4213-aac3-367335ca16b7")
-		(property "Reference" "Q16"
+		(property "Reference" "Q18"
 			(at 266.446 50.038 0)
 			(effects
 				(font
@@ -8893,7 +8893,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q16")
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b72d21d-950f-42c3-86ab-7784d461beea")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR089"
 			(at 45.72 52.07 0)
 			(effects
 				(font
@@ -8959,7 +8959,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR074")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -8975,7 +8975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e802e4a-ef84-42a9-9173-406ac1bff988")
-		(property "Reference" "C47"
+		(property "Reference" "C58"
 			(at 52.07 55.8863 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C47")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f1605be-bfdd-4ab7-a6de-8f14f63e1e11")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0106"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -9094,7 +9094,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR091")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9110,7 +9110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f953059-3db5-4afe-bdf7-ba3b082fd5dc")
-		(property "Reference" "C83"
+		(property "Reference" "C94"
 			(at 245.1036 45.72 90)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C83")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -9178,7 +9178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dd8630-5e55-4fc9-a04c-9ea8a2355609")
-		(property "Reference" "C75"
+		(property "Reference" "C86"
 			(at 166.3636 92.71 90)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C75")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -9246,7 +9246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68765b2-b41f-49c0-83ce-720163ca3de9")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0113"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -9296,7 +9296,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR098")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -9311,7 +9311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8140d04-f7c2-4c16-97d3-92b0dd180118")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0108"
 			(at 143.51 88.9 0)
 			(effects
 				(font
@@ -9361,7 +9361,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR093")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9377,7 +9377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8ff5cb4-3911-4629-a4eb-edb480b74aef")
-		(property "Reference" "C63"
+		(property "Reference" "C74"
 			(at 126.9936 132.08 90)
 			(effects
 				(font
@@ -9429,7 +9429,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C63")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -9445,7 +9445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa82c285-6c66-4f4f-b934-f26fa64bff55")
-		(property "Reference" "Q13"
+		(property "Reference" "Q15"
 			(at 185.166 144.018 0)
 			(effects
 				(font
@@ -9505,7 +9505,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q13")
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b13185fc-c7af-4715-9bb7-82c741b90904")
-		(property "Reference" "C82"
+		(property "Reference" "C93"
 			(at 228.6 31.7563 0)
 			(effects
 				(font
@@ -9575,7 +9575,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C82")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -9591,7 +9591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22ff41d-2c75-4f34-860d-13070cc5e66d")
-		(property "Reference" "L21"
+		(property "Reference" "L24"
 			(at 175.26 93.98 90)
 			(effects
 				(font
@@ -9643,7 +9643,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L21")
+					(reference "L24")
 					(unit 1)
 				)
 			)
@@ -9660,7 +9660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b278d2b4-992f-421b-8305-fcc831ca8910")
-		(property "Reference" "C77"
+		(property "Reference" "C88"
 			(at 189.2236 144.78 90)
 			(effects
 				(font
@@ -9712,7 +9712,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C77")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -9727,7 +9727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b314fb46-2060-4336-9662-fd3fbda3a60d")
-		(property "Reference" "C80"
+		(property "Reference" "C91"
 			(at 220.726 32.004 0)
 			(effects
 				(font
@@ -9781,7 +9781,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C80")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -9797,7 +9797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95fa757-0ef6-4816-bde2-7f5be4ee1bfe")
-		(property "Reference" "C50"
+		(property "Reference" "C61"
 			(at 53.34 124.4535 0)
 			(effects
 				(font
@@ -9851,7 +9851,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C50")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -9866,7 +9866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc2fe978-ab65-419f-b0cb-29659dc32843")
-		(property "Reference" "R31"
+		(property "Reference" "R42"
 			(at 131.572 80.01 90)
 			(effects
 				(font
@@ -9920,7 +9920,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R31")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9935,7 +9935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd0fe8ea-9e71-4276-932b-c5e8dca83325")
-		(property "Reference" "L3"
+		(property "Reference" "L6"
 			(at 57.15 18.542 90)
 			(effects
 				(font
@@ -9989,7 +9989,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L3")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -10004,7 +10004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be3c2c17-589f-41a7-bd69-3afc65e35642")
-		(property "Reference" "R29"
+		(property "Reference" "R40"
 			(at 45.212 147.32 90)
 			(effects
 				(font
@@ -10058,7 +10058,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R29")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10074,7 +10074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0209ea8-c745-4d80-aced-126c73b48bc3")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0101"
 			(at 67.31 180.34 0)
 			(effects
 				(font
@@ -10124,7 +10124,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR086")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -10139,7 +10139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1041c00-a04a-46fe-a86d-c0fb949229a7")
-		(property "Reference" "L18"
+		(property "Reference" "L21"
 			(at 154.94 126.492 90)
 			(effects
 				(font
@@ -10193,7 +10193,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L18")
+					(reference "L21")
 					(unit 1)
 				)
 			)
@@ -10208,7 +10208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c79c6c2f-0cc0-4e12-8bf0-d5cf44411204")
-		(property "Reference" "L5"
+		(property "Reference" "L8"
 			(at 58.42 101.092 90)
 			(effects
 				(font
@@ -10262,7 +10262,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L5")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -10278,7 +10278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8f424a2-fdb1-438c-9951-90782c35af91")
-		(property "Reference" "C39"
+		(property "Reference" "C50"
 			(at 34.2836 107.95 90)
 			(effects
 				(font
@@ -10330,7 +10330,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C39")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -10346,7 +10346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9555457-8780-455f-b51a-d359c2f5822f")
-		(property "Reference" "C53"
+		(property "Reference" "C64"
 			(at 67.3036 31.75 90)
 			(effects
 				(font
@@ -10398,7 +10398,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C53")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -10414,7 +10414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb54b229-8cd1-474e-a437-88e6ef1bb6e2")
-		(property "Reference" "C69"
+		(property "Reference" "C80"
 			(at 143.51 148.5835 0)
 			(effects
 				(font
@@ -10468,7 +10468,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C69")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d10830a8-9905-452b-97ba-990145834d6b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR091"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -10533,7 +10533,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR076")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -10549,7 +10549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a6accd-5c24-4dc7-af3f-17d462f5aabc")
-		(property "Reference" "L9"
+		(property "Reference" "L12"
 			(at 76.2 33.02 90)
 			(effects
 				(font
@@ -10601,7 +10601,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L9")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -10617,7 +10617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3293567-5e30-4cdb-8eda-8b3018f9b69d")
-		(property "Reference" "Q15"
+		(property "Reference" "Q17"
 			(at 222.25 45.7199 0)
 			(effects
 				(font
@@ -10677,7 +10677,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q15")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -10693,7 +10693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf54221-3e9d-40cd-83fb-48ed5ee4d0cf")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0104"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -10743,7 +10743,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR089")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10759,7 +10759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daff837e-be35-41b1-9b9f-67a243d58278")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 46.99 115.5699 0)
 			(effects
 				(font
@@ -10819,7 +10819,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10835,7 +10835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc6384e3-cc63-4b99-a000-43d50c52fcef")
-		(property "Reference" "Q6"
+		(property "Reference" "Q8"
 			(at 94.488 36.83 0)
 			(effects
 				(font
@@ -10895,7 +10895,7 @@
 		(instances
 			(project ""
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q6")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -10911,7 +10911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37663bd-fa7c-40fb-8fd8-b7c3fc2a7afc")
-		(property "Reference" "L14"
+		(property "Reference" "L17"
 			(at 152.4 57.1499 0)
 			(effects
 				(font
@@ -10965,7 +10965,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L14")
+					(reference "L17")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44a1b5c-2676-4b3c-b0b3-47acb091f48e")
-		(property "Reference" "C56"
+		(property "Reference" "C67"
 			(at 77.4636 160.02 90)
 			(effects
 				(font
@@ -11033,7 +11033,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C56")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -11048,7 +11048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4c06ec5-81e9-454b-a6f0-4dd7c4fa11bf")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0102"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -11098,7 +11098,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR087")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11114,7 +11114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e599681a-0e5d-4fe6-9f8c-7e886e1a0186")
-		(property "Reference" "C74"
+		(property "Reference" "C85"
 			(at 162.5536 139.7 90)
 			(effects
 				(font
@@ -11166,7 +11166,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C74")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -11182,7 +11182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e64f0607-4816-4602-96b8-f588dd575d1c")
-		(property "Reference" "Q12"
+		(property "Reference" "Q14"
 			(at 182.626 52.578 0)
 			(effects
 				(font
@@ -11242,7 +11242,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q12")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -11258,7 +11258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c3c4ac-6876-4178-b245-9ff206555415")
-		(property "Reference" "C44"
+		(property "Reference" "C55"
 			(at 48.26 40.6335 0)
 			(effects
 				(font
@@ -11312,7 +11312,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C44")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -11328,7 +11328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d5c448-7267-4347-b5c8-58ca916fe9ce")
-		(property "Reference" "C61"
+		(property "Reference" "C72"
 			(at 123.1836 40.64 90)
 			(effects
 				(font
@@ -11380,7 +11380,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C61")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -11396,7 +11396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e97c67f6-76a4-4acd-bb2c-621277cb0421")
-		(property "Reference" "L6"
+		(property "Reference" "L9"
 			(at 63.5 124.4599 0)
 			(effects
 				(font
@@ -11450,7 +11450,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L6")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -11466,7 +11466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8cb883-07fd-4d82-9930-35ab628620c4")
-		(property "Reference" "C73"
+		(property "Reference" "C84"
 			(at 161.2836 48.26 90)
 			(effects
 				(font
@@ -11518,7 +11518,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C73")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -11534,7 +11534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb709f79-f4f0-4baf-b9ba-c2ded876a994")
-		(property "Reference" "Q10"
+		(property "Reference" "Q12"
 			(at 135.89 92.7099 0)
 			(effects
 				(font
@@ -11594,7 +11594,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "Q10")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -11609,7 +11609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec085d3c-f031-4a1a-8805-393777314b51")
-		(property "Reference" "L13"
+		(property "Reference" "L16"
 			(at 148.59 35.052 90)
 			(effects
 				(font
@@ -11663,7 +11663,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L13")
+					(reference "L16")
 					(unit 1)
 				)
 			)
@@ -11678,7 +11678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf52660-885e-4957-ac17-0f0be828a117")
-		(property "Reference" "L23"
+		(property "Reference" "L26"
 			(at 233.68 32.512 90)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L23")
+					(reference "L26")
 					(unit 1)
 				)
 			)
@@ -11748,7 +11748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed376c27-4077-41e6-ab44-e2d37139265f")
-		(property "Reference" "C54"
+		(property "Reference" "C65"
 			(at 68.5736 69.85 90)
 			(effects
 				(font
@@ -11800,7 +11800,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C54")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -11815,7 +11815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee83adb5-2a67-404c-83d8-a4f16df0d1a6")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR088"
 			(at 43.18 110.49 0)
 			(effects
 				(font
@@ -11865,7 +11865,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR073")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -11881,7 +11881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef5705ee-ad67-4f74-a086-842926652c51")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0107"
 			(at 140.97 160.02 0)
 			(effects
 				(font
@@ -11931,7 +11931,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR092")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11947,7 +11947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2fd27cf-5012-40da-8a64-7d9a4966d390")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0100"
 			(at 62.23 135.89 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR085")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -12013,7 +12013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f317cb76-f2d6-49f2-ab38-9fa8ca4a5865")
-		(property "Reference" "L24"
+		(property "Reference" "L27"
 			(at 254 46.99 90)
 			(effects
 				(font
@@ -12065,7 +12065,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L24")
+					(reference "L27")
 					(unit 1)
 				)
 			)
@@ -12081,7 +12081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4be5fd8-05e0-4add-9026-098856a6c934")
-		(property "Reference" "C81"
+		(property "Reference" "C92"
 			(at 226.06 54.6035 0)
 			(effects
 				(font
@@ -12135,7 +12135,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C81")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -12151,7 +12151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f688725f-54a5-400f-942e-2619f5493268")
-		(property "Reference" "C52"
+		(property "Reference" "C63"
 			(at 59.69 146.0563 0)
 			(effects
 				(font
@@ -12205,7 +12205,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C52")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -12221,7 +12221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6fbae9e-eb20-402b-ae71-a6b2d7633b11")
-		(property "Reference" "C62"
+		(property "Reference" "C73"
 			(at 123.1836 85.09 90)
 			(effects
 				(font
@@ -12273,7 +12273,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C62")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -12289,7 +12289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f71a3b3b-c787-4355-8412-8aa262de182b")
-		(property "Reference" "L19"
+		(property "Reference" "L22"
 			(at 170.18 49.53 90)
 			(effects
 				(font
@@ -12341,7 +12341,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L19")
+					(reference "L22")
 					(unit 1)
 				)
 			)
@@ -12356,7 +12356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb32ada7-459c-4a8b-b9d9-b11b2cf984ba")
-		(property "Reference" "L4"
+		(property "Reference" "L7"
 			(at 57.15 56.642 90)
 			(effects
 				(font
@@ -12410,7 +12410,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L4")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -12425,7 +12425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbd91281-1bce-4ebf-bbc1-327c20775b26")
-		(property "Reference" "R33"
+		(property "Reference" "R44"
 			(at 214.122 33.02 90)
 			(effects
 				(font
@@ -12479,7 +12479,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "R33")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -12495,7 +12495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd39ccee-2066-4514-be6b-cf27eb698b2e")
-		(property "Reference" "L17"
+		(property "Reference" "L20"
 			(at 157.48 101.5999 0)
 			(effects
 				(font
@@ -12549,7 +12549,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "L17")
+					(reference "L20")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd89accc-a067-4fc1-83f5-7fe26b001a6f")
-		(property "Reference" "C67"
+		(property "Reference" "C78"
 			(at 141.986 125.984 0)
 			(effects
 				(font
@@ -12618,7 +12618,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "C67")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -12634,7 +12634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa6989d-1443-4a26-9c5d-094b986abcc0")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR095"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -12684,7 +12684,7 @@
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/ec53c5ee-9461-45e2-ad09-a1b0259ff68e"
-					(reference "#PWR080")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)

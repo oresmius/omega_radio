@@ -5614,7 +5614,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 22.86) (xy 281.94 22.86)
+			(xy 280.67 21.59) (xy 281.94 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6384,6 +6384,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 22.86) (xy 279.4 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9963d2-dc99-4c60-a9fc-c9146cdae10f")
+	)
+	(wire
+		(pts
 			(xy 213.36 134.62) (xy 215.9 134.62)
 		)
 		(stroke
@@ -7111,6 +7121,16 @@
 			(type default)
 		)
 		(uuid "9fe21f66-c360-43f8-b4ad-02bd0f46c603")
+	)
+	(wire
+		(pts
+			(xy 280.67 21.59) (xy 280.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c74dc6-e65a-4e24-b150-2421ceeb49c9")
 	)
 	(wire
 		(pts
@@ -9376,7 +9396,7 @@
 	)
 	(global_label "PRE DRIVER IN"
 		(shape output)
-		(at 281.94 22.86 90)
+		(at 281.94 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9386,7 +9406,7 @@
 		)
 		(uuid "6d4bc063-4d84-4c9b-867f-e3a6bc63ad7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 16.0893 90)
+			(at 281.94 14.8193 90)
 			(effects
 				(font
 					(size 1.27 1.27)

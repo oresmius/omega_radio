@@ -3457,256 +3457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+15V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4547,6 +4297,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 17.78) (xy 114.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04be25ae-4a2e-4d56-b367-05f139e8ac07")
+	)
+	(wire
+		(pts
 			(xy 165.1 99.06) (xy 153.67 99.06)
 		)
 		(stroke
@@ -4774,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "17cf602d-00da-45a9-ac1c-46b938471168")
+	)
+	(wire
+		(pts
+			(xy 69.85 38.1) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1812f196-359a-4439-ae74-6ec633bcf76c")
 	)
 	(wire
 		(pts
@@ -5074,6 +4844,16 @@
 			(type default)
 		)
 		(uuid "2af24b5e-08b1-4432-91f2-8692c91331ee")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c149e7b-39e8-4600-9628-c85a53ab8344")
 	)
 	(wire
 		(pts
@@ -5887,6 +5667,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6544c9e9-2809-403c-9554-9471681aec2c")
+	)
+	(wire
+		(pts
 			(xy 223.52 60.96) (xy 227.33 60.96)
 		)
 		(stroke
@@ -5957,6 +5747,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 86.36) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690858af-df46-4afc-8674-9c4aa9aac420")
+	)
+	(wire
+		(pts
 			(xy 191.77 73.66) (xy 195.58 73.66)
 		)
 		(stroke
@@ -6004,6 +5804,36 @@
 			(type default)
 		)
 		(uuid "6e9db2ee-d7e8-44f2-90f0-e165a452d89d")
+	)
+	(wire
+		(pts
+			(xy 153.67 29.21) (xy 154.94 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7033ad54-5d9d-468e-b86b-cf3540d0a0be")
+	)
+	(wire
+		(pts
+			(xy 49.53 17.78) (xy 46.99 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b39a11-28e4-4251-ba0f-aaa9c81df423")
+	)
+	(wire
+		(pts
+			(xy 105.41 88.9) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c6552f-bc35-45ae-922a-c1d64c55f442")
 	)
 	(wire
 		(pts
@@ -6217,6 +6047,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821e1efc-38ef-4c0c-851d-1f9506576787")
+	)
+	(wire
+		(pts
 			(xy 251.46 107.95) (xy 251.46 121.92)
 		)
 		(stroke
@@ -6324,6 +6164,16 @@
 			(type default)
 		)
 		(uuid "881b59a0-c587-4e0c-9a61-a0c7f8c0591e")
+	)
+	(wire
+		(pts
+			(xy 16.51 97.79) (xy 16.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885ce0fc-71fb-4416-93b7-771079259877")
 	)
 	(wire
 		(pts
@@ -7027,6 +6877,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 17.78) (xy 105.41 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9966859-0af8-447d-a9d1-788c5060c94a")
+	)
+	(wire
+		(pts
 			(xy 176.53 46.99) (xy 181.61 46.99)
 		)
 		(stroke
@@ -7377,6 +7237,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 105.41) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2111db6-acf8-4b9b-b367-5d4b0ef67456")
+	)
+	(wire
+		(pts
 			(xy 191.77 137.16) (xy 191.77 140.97)
 		)
 		(stroke
@@ -7537,6 +7407,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 19.05) (xy 49.53 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc130146-0403-4152-beb4-64cf15f9ce29")
+	)
+	(wire
+		(pts
 			(xy 187.96 140.97) (xy 187.96 148.59)
 		)
 		(stroke
@@ -7584,6 +7464,16 @@
 			(type default)
 		)
 		(uuid "e04f257d-781f-41fe-b5a7-24c8b7f8e03a")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a895cd-df74-413e-a7ea-6f80b0abddc6")
 	)
 	(wire
 		(pts
@@ -7674,6 +7564,16 @@
 			(type default)
 		)
 		(uuid "e915978b-bf0e-44f9-af35-2bf866582966")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e979e1dd-c3e9-4131-9503-311bb45d9384")
 	)
 	(wire
 		(pts
@@ -7967,6 +7867,28 @@
 			)
 		)
 	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 71.12 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "2db15ee3-0285-484e-9f1e-9ffd5eabb1aa")
+		(property "Intersheetrefs" "3"
+			(at 79.6289 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PRE DRIVER IN"
 		(shape input)
 		(at 16.51 88.9 90)
@@ -7980,6 +7902,72 @@
 		(uuid "43637c42-f5fc-49ea-8fc6-9cc3b98314ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.51 82.1293 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 105.41 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "4e1e5d95-699f-43ad-8e72-c7a020520371")
+		(property "Intersheetrefs" "3"
+			(at 96.9011 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 48.26 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "50ecc411-2c0f-462d-9723-13b4bae786dc")
+		(property "Intersheetrefs" "3"
+			(at 39.7511 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V_MAIN"
+		(shape input)
+		(at 154.94 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "5c58471d-91ef-41b9-80be-c580e590468f")
+		(property "Intersheetrefs" "3"
+			(at 163.4489 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,6 +7995,138 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 46.99 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "74ee17af-a9c6-41a3-aa99-f7ca4832528d")
+		(property "Intersheetrefs" "3"
+			(at 38.4811 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 114.3 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "96506f0c-2534-44aa-bf2c-209e36d96c83")
+		(property "Intersheetrefs" "3"
+			(at 122.8089 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 114.3 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "a1d015aa-24a1-495d-8251-684fa78d79a2")
+		(property "Intersheetrefs" "3"
+			(at 122.8089 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 69.85 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "c433097e-3249-4cf3-95d9-a890c9a847b5")
+		(property "Intersheetrefs" "3"
+			(at 78.3589 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V_MAIN"
+		(shape input)
+		(at 154.94 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "e2e5cc3e-5c10-42ec-bf3d-51b6c324d84a")
+		(property "Intersheetrefs" "3"
+			(at 163.4489 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_MAIN"
+		(shape input)
+		(at 104.14 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "f28f7404-889e-4ba9-9acd-108a89c4240c")
+		(property "Intersheetrefs" "3"
+			(at 95.6311 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9233,71 +9353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 114.3 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1214636d-2df1-4c82-add4-64faabc4adaf")
-		(property "Reference" "#PWR0171"
-			(at 114.3 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 114.046 18.034 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 114.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfedb56a-272a-45c0-a533-98c82d0c3da5")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 104.14 135.89 0)
 		(unit 1)
@@ -10128,71 +10183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 69.85 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e17b8f5-039a-4a47-8437-d4b73e4fa7e2")
-		(property "Reference" "#PWR0159"
-			(at 69.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 69.596 101.854 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 69.85 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b32448ac-cadf-49a5-b783-ef1c639b3d11")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 102.87 104.14 270)
 		(mirror x)
@@ -10528,71 +10518,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
 					(reference "R73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 69.85 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25d53170-57c8-4f91-916e-b371a810596f")
-		(property "Reference" "#PWR0157"
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 69.596 35.814 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93b2d34c-3492-43bb-b1ca-3ef74694b472")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -11002,71 +10927,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 153.67 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b141f8d-64d8-465c-a64b-0d4eb5677b51")
-		(property "Reference" "#PWR0183"
-			(at 153.67 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V_Main"
-			(at 160.02 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 153.67 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7d41dc1-ac4c-408f-ab23-c4e04610487d")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -12278,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+		(property "Datasheet" ""
 			(at 245.11 64.77 0)
 			(effects
 				(font
@@ -12288,7 +12148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -12643,71 +12503,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
 					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 105.41 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4757b5d9-2de7-453d-a9f0-77df731d660f")
-		(property "Reference" "#PWR0168"
-			(at 105.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 105.156 85.344 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 105.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e3a2d7b-2b94-45ab-a105-251bc85b7023")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -14060,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+		(property "Datasheet" ""
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -14070,7 +13865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -17772,71 +17567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 105.41 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3887268-61ba-41f2-8199-c6935cb724cb")
-		(property "Reference" "#PWR0167"
-			(at 105.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 105.156 18.034 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 105.41 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bd8ae26-98c2-4257-bac5-392d6ed71ed6")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 223.52 63.5 0)
 		(mirror y)
@@ -19278,71 +19008,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
 					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 49.53 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b94a0d77-e47f-4c91-89a7-5ca6b162ee22")
-		(property "Reference" "#PWR0145"
-			(at 49.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 49.276 15.494 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 49.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdba3886-b4cf-40cc-b7f4-09aa12fb178e")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -20879,71 +20544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 114.3 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbd0db8d-8e78-4cdd-9593-53c01d4f9f47")
-		(property "Reference" "#PWR0172"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V_Main"
-			(at 114.046 85.344 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bba577f-f48e-447d-9aab-d87057cdea1a")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 36.83 0)
 		(unit 1)
@@ -21047,7 +20647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+		(property "Datasheet" ""
 			(at 245.11 49.53 0)
 			(effects
 				(font
@@ -21057,7 +20657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 240.03 45.72 0)
 			(effects
 				(font
@@ -21154,16 +20754,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 49.53 85.09 0)
+		(lib_id "power:GND")
+		(at 16.51 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d1f8099d-eec5-433f-97d5-97f61b9a6b8f")
-		(property "Reference" "#PWR0146"
-			(at 49.53 88.9 0)
+		(uuid "cfe7bc9f-70ff-4cd2-9c3e-c55ef9665478")
+		(property "Reference" "#PWR0145"
+			(at 16.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21171,8 +20771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V_Main"
-			(at 49.276 81.534 0)
+		(property "Value" "GND"
+			(at 16.51 104.648 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21180,7 +20780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 85.09 0)
+			(at 16.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,7 +20789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 85.09 0)
+			(at 16.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21197,8 +20797,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 49.53 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,12 +20807,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c89832ae-10e0-4d4b-bbdd-893978297222")
+			(uuid "3eef8d22-b65c-4a8d-b17f-cc2d2589548b")
 		)
 		(instances
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0146")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -22221,7 +21821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+		(property "Datasheet" ""
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -22231,7 +21831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 240.03 135.89 0)
 			(effects
 				(font
@@ -23621,71 +23221,6 @@
 			(project "Omega Radio"
 				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 153.67 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9aa1d69-1bd5-402a-869a-41ec5f4714f2")
-		(property "Reference" "#PWR0184"
-			(at 153.67 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V_Main"
-			(at 160.02 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 153.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b93b4444-471e-48df-83d3-cdeff57ef1e8")
-		)
-		(instances
-			(project "Omega Radio"
-				(path "/3468ce30-82a7-4087-a7ac-02063723d842/24312ef5-36e6-40ee-ad2e-2d0b81e7182c"
-					(reference "#PWR0184")
 					(unit 1)
 				)
 			)

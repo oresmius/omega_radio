@@ -1,0 +1,8 @@
+* Modelo de Potenciometro Linear
+* Pinos: 1=Topo, 2=Cursor(Wiper), 3=Base
+* Parametros: R=Resistencia Total, val=Posicao (0 a 1)
+.subckt POT 1 2 3 params: R=10k val=0.5
+* Adicionamos 1m (miliohm) para evitar erro de divisão por zero se val=0 ou 1
+R1 1 2 {R*(1-val) + 0.001}
+R2 2 3 {R*val + 0.001}
+.ends POT
